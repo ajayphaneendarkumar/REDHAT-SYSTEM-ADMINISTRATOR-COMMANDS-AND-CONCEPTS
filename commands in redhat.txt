@@ -1,0 +1,472 @@
+ubuntu linux commands or centos commands
+====================================================
+1.who
+2.whoami
+3.date
+4.time
+5.cal->calender
+6.history
+7.To create a file
+  --> cat > filename
+  --->touch filename (it is used to show the time when we open the file)
+8.To see content of the file
+   ---> cat filename
+9.To copy one file to another
+   ---> cp filename filename1
+10.TO move one file to another
+    --->mv filename1 filename2
+11.To create a directory
+    --> mkdir directoryname
+12.To change the directory
+     -->cd directoryname
+13.$->standard user->limited access
+14.#->root user->full access
+15.pwd (it shows present/print  working directory)
+16.ls ->it shows list of files and directorys
+17.ls -l->it shows list of files and directorys in order
+-->echo is used to print the message what we have given.
+18.sharing:-
+======================================================
+--->first open the start menu and search for sharing and then open it ,now turn on all the private,public and all networks and turn of password protection and save the changes.
+--->now create one folder or select one folder and copy one file in to it, if there is no files int it,if there are files no need to copy ,after that right click on that folder and goto
+    propeties and select sharing amd give full control for everyone.
+--->Now in cmd type "ipconfig" and sned your ip address to all then they can access that sahred folder.
+---->here the main point is the users must connect to same network.
+=======================================================
+19.work group networks
+=====================================================
+peer - to - peer network
+=====================================================
+no security
+no control over data
+
+20.client server Architecture
+=====================================================
+server: central management services/resources
+client: will access services/resources
+Here both client and server both connect through a network called internet.
+=============================================================================
+-->Graphical user interface(GUI)in linux environment:-
+===================================================
+-->gnome
+-->kde
+==============================================
+-->command line interface in linux environment:-
+===============================================
+-->korne shell
+-->Zshell
+-->bourne shell
+-->bash(born again shell) -->mostly used.
+=============================================
+shells:-
+============================
+graphical user interface.
+command line interface.
+windows powershell.
+================================
+
+21)webserver-websites
+ ========================================================
+
+eg:
+acet.ac.in--->surampalem
+server-computer
+
+web service-small software
+|
+operating system
+|
+ram
+|
+cpu
+|
+storage
+
+2)Amazon webserver
+------------------
+videos
+|
+software (videos,web series)
+|
+operating system
+|
+ram
+|
+cpu
+|
+storage
+
+3)LMS:
+-----
+A Learning Management System (LMS) 
+is an online integrated software used for creating, delivering, tracking, and reporting educational courses and outcomes
+
+eg:codemind
+
+ 
+22.OPERATING SYSTEM:-
+===============================================================
+it act as interface between user and a computer hardware.
+READHAT is also a one type of operating system.
+================================================================
+versions of linux:-
+==============================
+Redhat Fedora- desktop version
+RHEL - server version
+centos- CD version -continuous delivery version
+
+===============================================================
+23.windows desktop versions are windows10,windows11,..
+24.windows server versions are win 2016,2019,2020,2022..
+25.linux  desktop version is ubuntu .
+26.linux server version is rhel.
+27.operating system->server version 
+================================================================
+
+28.file service:-ftp,tftp(file transfer protocol,transfer file transfer protocol)
+29.file client:-filezilla,winscp
+===================================================================
+-->mail service:-smtp(simple mail transfer protocol).
+30.IP SERVER:-
+================
+IP SERVICE->DHCP(dynamic host configuration protocol)
+=====================================================================
+31.redundancy:-having multiple copies of same data or same info or same tpye.
+=====================================================================
+high-availability
+to reduce the redundancy we will use normalization and decomposition.
+=========================================================================
+
+32.linux os is developed by linus torvalds in the year 1991.
+33.linux is completely open source network.
+34.unix is completely closed source network.->developed by open n etwork group.
+===============================================================================
+35.commands in centos 
+===========================================================
+-->after power on 
+--->first go to ctrl+alt+f4,f5,f6 and enter the username after that enter password 
+---->now type sudo su after that enter password and then enter passwd root
+---->now create new password to the user.
+---->cal
+---->date
+---->history
+---->cat > filename
+---->cat filename
+---->time
+---->ls
+---->ls -l
+---->who
+---->whoami
+---->|-->root tag
+---->cat > passwd(file created)
+---->cat passwd(to view content of the file)
+---->head passwd(shows first 10 lines)
+---->tail passwd(shows last 10 lines)
+---->head -n 3 filename(first three lines)
+---->head -n 2 filename(first two lines)
+---->tail -n 3 filename(last three lines)
+----->tail -n 2 filename(last two lines)
+----->wc(word count):-
+syntax:wc filename
+------>wc -l filename(no.of lines)
+----->wc -w filename(no.of words)
+----->wc -c filename(no.of characters)
+------>wc -w -c filename(no.of words and characters)
+----->useradd  username(to create new user)
+----->passwd username(to create password)
+----->userdel username--->to del user.
+----->ls -l|more-->shows page wise.
+---->ls -l pa*-->shows no.of files that start with pa.
+----->pwd(print working directory or folder).
+---->exit -->this command is used to exit from root user and converted in to standard user.
+----->os is also called as system software.
+----->MAC os is compliant os of unix.
+------>the blinking operator in the shell is called prompt.
+----->"/etc" contians the configuration files.
+----->"f1 to f6" keys are called virtual keys.
+----->"/" is the starting directory of file heirarchy.
+----->"/root" is the home directory of root user.
+---->"/home" is the home directory of standard user.
+---->history |more (it shows the no.of commands excuted in a pagewise).
+---->!(number)-->to see particular command in the history.
+--->cd -(it will show the present and previous directorys).
+--->ctrl+c is used to kill the process.
+--->ls -lR(to see files in a directories). 
+-->ls -lr
+--->ls -ld
+--->ls --lr|more(page wise)
+--->ls --lR|more(page wise)
+--->man ls(to get manual pages)
+--->man cat.
+--->ls -la(to see long listing files with hidden files).
+--->ls -lt
+--->man ls -lr
+---->man ls -lR.
+--->man ls  -la.
+--->man ls -ld 
+--->man ls -lt.
+**best commands to hack windows(pc)**
+====================================
+Accessibility Options: access.cpl
+Add Hardware: hdwwiz.cpl
+Add / Remove Programs: appwiz.cpl
+Administrative Tools: control admintools
+Automatic Updates: wuaucpl.cpl
+Wizard file transfer Bluetooth: fsquirt
+Calculator: calc
+Certificate Manager: certmgr.msc
+Character: charmap
+Checking disk: chkdsk
+Manager of the album (clipboard): clipbrd
+Command Prompt: cmd
+Service components (DCOM): dcomcnfg
+Computer Management: compmgmt.msc
+DDE active sharing: ddeshare
+Device Manager: devmgmt.msc
+Watson: drwtsn32
+Free Cell: freecell
+=========================================
+-->linux is a case sensitive 
+-->shutdown (it will poweroff entire centos)
+-->mkdir aec/cse(first we have to create the aec directory and then create cse directory)
+-->cd aec and then type ls -l-->then you will see the cse directory.
+-->rm -rf directoryname or rmdir directory name(to delete the directory without any conformation)
+-->(.)->represents existing directory
+-->cp -r ~/directory1/directory2 .
+-->touch filenames -->this command is used to create many files at a time.
+============================================================================
+links:-(to create multiple links)
+=========
+-->hard link --->it cannot create for directorys ,it is only for files ->limitation
+->formats create a file system.
+=================================
+-->command to create hard disk:-
+=================================
+ -->create a file1.
+ -->create a directory.
+-->execute the command now-->(ln filename1  ~/directory name).
+--->to see the inode value of the file ,exectue` the command -->(ls -li filename).
+========================================
+-->command to create soft link:-
+==================================
+--->first create a file.
+--->create a directory
+--->exectur the command ->>(ln -s file1 ~/directory name).
+==================================================================
+-->VI Editor:-
+==================
+-->there three types in linux
+ 1.vi
+ 2.vim
+ 3. nano editor
+===============
+-->vim edito:
+=================
+-->vim filename
+-->press "i" -->insert mode
+-->press "escape" to exit from insert mode.
+-->press "shift+: " to save the file
+-->press wq to write and quit.
+--> if you dont want to save the file then press ":q!".
+we can repeat the same process many times.
+-->to view the content press "v" after exit from insert mode.
+-->vimtutor-->to know entire descrption .
+===========================================
+nano editor:-
+=================
+-->nano filename 
+
+=================
+-->there are two types of users 1.standard user($) 2.root user(#)
+=================================
+processes related commands:
+=================================
+--> ps command to see the no.of currently running process or process status.
+--->ps -a  	
+-->ps -au
+-->ps -u
+--->id (always uid ,gid for root is zero).
+(uid and gid for standard user is start with 1000).
+--->in password there are 7 parts
+1.username 2. password 3.uid 4.gid 5.groupname 6.home directory 7.login info
+============================================================================== 
+-->cat /etc/passwd
+-->cat /etc/shadow
+-->cat /bin/bash
+--to switch one user to other just excute the command 
+su username in another user home directory.
+======================================================
+-->system users 1-999(ids)
+-->standard users (from `1000 onwards ids will be start..)
+-->interactive login(/bin/bash) (root,standard users)
+-->system users (/bin,/sbin/no login)
+-->standard users = system users
+=======================================================
+--> to see the id of a user we use the command (id username).
+-->to give description in passwd
+    usermod -c "desc" username
+-->ex:
+
+usermod -c "hello redhat training " cse1
+in passwd it changes the description of the particular user(which we have mentioned)
+-->groupadd <gropu name>.//to add the group
+-->groupdel <groupname>.// to delete the group.
+-->groupdel -f <groupname> // to delete the group frocely.
+--> syntax to add user to the primary group is -->first creat the group by using groupadd <group name>,-->usermod  -g  <groupname> <username>.
+-->syntax to add user to the secondary group is-->usermod -aG <groupname> <username>.
+-->usermod -L username //this is to lock the user.
+-->usermod  -U username //this is to unlock the user.
+-->cd /etc/sudoers.d
+(now create one file with same name as the group and give the permissions  %cse	ALL=(ALL)	ALL)
+(now switch to any one of the user that we added to the the group (su - username))
+(now try to create the new user by using (sudo useradd useraname))permissions are granted.
+-->to change or modify the userid foloow the syntax --->usermod -u newid username,-->id username
+-->to change or modify the group id follow the syntax -->groupmod -g newid groupname,-->id username.
+--> to change group name follow the syntax-->groupmod -n "new name for existing group name" actual-group-name.
+-->(su - username)-->directly it will show the home directory.
+=================================================================================================================================================
+-->timrdatectl-->it will show day ,time ,date.
+-->timedatectl list-timezones-->multiple timezones.
+-->timedatectl list-timezones|more -->to see timezones pages wise.
+-->timedatectl list-timezones|grep Asia.
+-->timedatectl set-timezone Asia/Kolkata.
+-->timedatectl set-time HH:MM::SS.
+-->date --set HH:MM:SS
+-->date --set yyyy-mm-dd
+-->date --set yyyy-mm-dd HH:MM:SS
+===================================================================================================================================================
+Encrypted password:-
+====================================================================================================================================================
+-->/etc/shadow file contains the all local users information.
+-->vim /etc/shadow-->open the shadow file in edit mode . 
+-->1.it contains username
+-->2.it contains password policy or encypited password.
+-->4.minimum password age-by default(0).
+-->5.maximum password age-(99999)-->it doesnt expire.
+-->3.after chaging the user password ,now got vim /etc/shadow and observe the no.of days after last password change.
+--->6.last one shows no.of inactive days.
+-->chage -m 0 -M 30 -W 7 -I 7(m->minimum age,M->maximum age,W->warning after how many days password expires,I->no.of inactive days).
+====================================================================================================================================================
+FILE/DIRECTORY PERMISSIONS:-
+===============================
+-->User permissions override the group permissons and group permisssions override the other permissions.
+-->r->read
+-->w->write
+-->x->execute
+-->d->type
+-->r-x-->read and execute permission
+-->rw -->read write permission
+-->"chmod" command is used to give the permissions and this command applys on files and directorys.
+-->"chown" command is used to give the ownership or to change the owner ship .
+-->syntax:-
+   1.chown :groupname /home/directoryname(eg:-sensors)-->we execute this command in "cd /home" directory.
+   2.chown :gropuanme /home/directoryname/filename.
+   3.chmod g(group)+w(write) /home/sensors-->this is for directory.
+   4.chmod (g+w or o+w or u+w) /home/sensors/filename -->>this is for files.
+-->in place of giving permissions like g+w,u+w,o+w we can directly follow the below syntax
+   r=4
+   w=2
+   x=1
+eg:-
+    chmod 777 /home/sensors/iot
+    chmod 511 /home/sensors/iot
+    chmod 222 /home/sensors/iot
+=======================================================================================================================================
+-->process management:-
+======================================
+-->applications/user
+-->system services/system files
+-->os->system software
+-->resources--memory,cpu,storage
+==================================
+-->mutli-processing:-
+======================
+-->four processes we can run in active state at time.
+==========================
+-->multi tasking:-
+================
+-->how many activities or processes we are running without minimizing is nothing but mutli tasking.
+========================================================================================================
+-->multi threading:-
+=============================
+-->thread is a child process under one parent process.
+-->commands realted to process management:-
+  --> ps
+  --> ps aux
+  -->ps lax
+  --> top-->we can get all the getails realted to process ,so it is very good command.
+  --> w-->it will show no of users logedin.
+  -->lscpu
+  -->pgrep -l -u username
+  -->pkill -SIGKILL -u <user> -->it will logout the user forcely fully by sending killsignal.
+===============================================================================================
+  -->SSH-secured shell
+  -->folowing are the protocols for remote connections.
+       ->ssh-linux,unix ->fully encrypted
+       ->telnet
+        ->rlogin
+        ->rdp
+==========================================================
+ -->ip(internet protocol) and port number:-
+=========================================
+ ->ipsocket -->ipaddress + portnumber
+ ->over the world there are 65536 port numbers are in use.
+ ->ssh-->22 port number
+ ->telent-->23 port number-->telent is something where communication happens in a plain text->it doesn't have encrypted fromat..
+ ->rdp->remote desktop protocol ->secured connection for windows desktop ->3368.
+ ->80 port number is unsecur and 443 is secure.
+ ->to see ip address in windows got cmd and type ipconfig->but it is not used in linux.
+ -->to see ip address in linux got to whatever the linux you have and type "ifconfig".
+ -->to ping one ip address to other just type "ping ip address ". 
+--->ping is to check connectivity
+ -->"yum update"->this is used to install the updates.
+ -->"dnf update"-->this is also same as yum update.
+======================================================================================
+system services:-
+=======================================================================================
+-->"systemctl" ->this command deals with the system services.
+--> "systemctl status ssh" or "systemctl status sshd" -->checks whether system installaed ssh or not.
+-->if ssh is not installed in system then excute the coomand -->"dnf or yum install openssh".
+-->to stop the sshd service -->"systemctl stop sshd".
+-->again to start the sshd service-->"systemctl start sshd".
+-->"systemctl enable sshd".
+-->"systemctl disable sshd".
+-->"systemctl restart sshd".
+-->d-->refers to deamon.
+-->"dnf install package name".
+-->dnf install httpd"-->httpd is a web service.
+-->ssh-keygen-->it will generate the keys.
+-->cd .ssh--> ls -l -->ls -la -->vmware-hgfsclinet -->cd /mnt -->ls -->cd hgfs -->ls
+-->cp ~/.ssh/id_rsa.pub to ssh keys folder.
+
+===============================================================================
+MINI PROJECT :-
+=====================================
+TOOLS TO INSTALL:-
+-----------------
+->sudo apt-get install apache2
+->sudo apt-get install php
+->sudo apt-get insatall nmap
+----------------------------------
+NOW GIVE THE PERMISSIONS AND OWNERSHIP TO HTLM FILE WHICH IS IN "/VAR/WWW/HTML"
+--------------------------------------------------------------------------------
+->sudo chown ubuntu /var/www/html
+->sudo chmod 777 /var/www/html
+---------------------------------------------------------------------------------
+CRON JOB CONFIGURATION:-
+========================
+->sudo crontab -e(this is one of the editor in ubuntu)
+*/10 * * * *nmap 192.168.1.0/24 -oN /var/www/html/nmap.html
+===================================================================================
+NETWORK.PHP:
+==============================
+<?php
+
+echo "Server Timestamp: ";
+echo date("h:i:sa");
+
+echo "<pre>";
+include("nmap.html");
+echo "</pre>";
+
+?>
