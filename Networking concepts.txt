@@ -249,3 +249,31 @@ private ip addresses:-
 -->192.168.10.0 to 192.168.10.255/24 bits
 ===============================================================================================================================
 
+-->FAST ETHERNET(FE):- 
+   -->it's speed is 10/100 Mbps
+-->GIGABIT ethernet(GBE) :- it's speed is 1gbps.
+-->for rj45 port -->ethernet port 
+-->windows+R -->devmgmt.msc
+===========================================================
+->PHYSICAL LAYER:-network interface card(NIC) , HUB-->broadcasting-->security-->performance-->half-duplex.
+-->DATALINK LAYER:-arp process,mac address table,switch-->unicasting-->security-->performance-->fully duplex.
+-->IN ROUTER we saw -->one auxillary port,one console port , 2 gbe ,one usb port , 2 communication ports-->gbe0,gbe1
+-->every router will have operating system-->cisco router-->cisco IOS(internetnetworking operating system).
+-->router is used to route/configure the packets form one network to another network .
+-->switch is used to consigure packets within the network.
+-->router is also called as gateway.
+-->auxillar and console ports are not used for transportation/communication.
+-->console port is used to configure.
+-->console cable - roll over cable- cisco console cable.
+-->two types of console cables:-
+     -->rj45 console-------------------------------------------------------rj45console.
+     -->rj45 console-------------------------------------------------------rs232c(serial code)
+     -->usb a ---------------------------------------------------------------usb b
+-->In user mode --> there will be prompt with symbol '>'.
+-->IN privilege mode ->there will be prompt with symbol '#'.
+-->to convert user to privilege mode excute the command ->"enable"
+-->after executing the command "configure terminal" the "#" prompt changes to "(config)#".
+-->to exit from the "configure#" mode excute coomand "exit".
+-->to exit from privilege mode execute the command "disable"
+-->to know how many interfaces -->excute the command ->"show ip  interface brief".
+-->
