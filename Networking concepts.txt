@@ -276,4 +276,45 @@ private ip addresses:-
 -->to exit from the "configure#" mode excute coomand "exit".
 -->to exit from privilege mode execute the command "disable"
 -->to know how many interfaces -->excute the command ->"show ip  interface brief".
--->
+-->to change the host name -->goto c=global configuration mode and type hostname newhostname and then exit an then save with wr command.
+WIRLESS CONFIGURATION:-
+----------------------------
+-->routing - wired router
+-->router -limited area connectivity
+-->for wireless configuration radio signals are used.
+-->wifi ->wirless fidelity.
+-->high frequency ->2.4g , 5.0g
+-->any router works as a sign board.
+===============================================================
+SUBNETTING:-
+===============================================
+-->IT WILL IDENTIFY THE NETWORK.
+-->192.168.10.0/24 bits
+-->1 -switch ->100 computers
+   |
+   2 - switch->100 computers
+-->arp,security
+-->NOw we will look into the concept of subnetting:-
+------------------------------------------------------------
+ -->There are two types of subnetting they are
+      -->FLSM ->fixed length subnetmask
+      -->VLSM ->Variable length subnetMask
+ -->A big Network break down in to Sub Networks
+ -->broadcasting will degrade the network performance.
+ -->requriements
+ -->nearest value
+ -->new subnet mask
+ -->no.of hosts , no.of networks
+ -->writing the range
+ -->eg:-
+     requirements = 30
+     nearest value = 2^5 ->32 -2 = 30 ->2^h ->here h is the no.of hosts
+     255.255.255.0/24 bits -older
+     255.255.255.11100000
+     255.255.255.224 /27 bits ->new subnet mask
+     no.of hosts = 32
+     no.of networks = 2^n = 2^3 =8
+     total 32 ip's per network
+     to write a range we need to take always ->2^h
+=================================================================================================
+
