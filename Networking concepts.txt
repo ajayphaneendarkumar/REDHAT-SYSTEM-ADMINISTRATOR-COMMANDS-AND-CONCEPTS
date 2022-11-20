@@ -317,4 +317,33 @@ SUBNETTING:-
      total 32 ip's per network
      to write a range we need to take always ->2^h
 =================================================================================================
+IPV6 NETWORK ADDRESSING:-
+========================================
+-->it is having 8 portions.
+-->each portion is called hextate.
+-->eg:-
+     x.x.x.x.x.x.x.x
+     2001.0D86.0000.0000.0000.0001.2000.0304
+-->each hextate contains 16-bit binary digits.
+-->each number has 4 bits.
+-->so it is called 128 bit hexa decimal ip address.
+-->there are 340 undecillion ipv6 addresses.
+-->there are 4.2 billion ipv4 addresses but they are not enough in the future for that purpose they started to found ipv6 addresses from "1999" onwards.
+-->no need of NAT(Network Address Translation)
+-->No Subnetting.
+-->No more broadcast.
+-->ipv6 provides security as weel as performance.
+-->we can assign multiple ip addresses for interface.
+-->first 64 bits -->global prefix value.
+-->second 64 bits -->interface id
+-->rule1:-->omiting leading 0's 
+-->rule2:-->":" segment -->nothing but if there are continuous 0's then place "::"(double colon) there.
+-->eg:-2001.0D86.0000.0000.0000.0001.2000.0304
+     -->leading zeros-->2001.D86.0.0.0.1.2000.304
+     -->rule2:-  2001.D86::2000.304
+-->unicast,multicast,anycast
+-->Global unicast address -->public ip -->Address starts with 2 or 3 is called as global unicast address
+-->link locxal address -->non routable-->default ipv6 address.
+-->unique local address-->private ip -->address starts with "fc" or "fd" is called as unique local address.
+-->unique local and global unicast addresss can be used as anycast.
 
