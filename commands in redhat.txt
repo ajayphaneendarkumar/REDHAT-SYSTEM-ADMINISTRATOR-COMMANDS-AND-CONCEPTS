@@ -470,3 +470,22 @@ include("nmap.html");
 echo "</pre>";
 
 ?>
+==========================================================================================================================================================
+-->what is redhat
+-->what is linux.
+-->what is windows
+-->what is the difference b/w linux and windows
+-->what are the advantages of redaht linux
+-->what are the applications and services provided by redhat
+----------------------------------------------------------------------------------------
+-->RedHat :- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
+-->windows :- it is an user friendly operating system which acts as interface between computer hardware and user. also  it is a graphical operating system developed by microsoft.
+-->difference b/w linux and windows :- 
+    linux                                        windows
+   ------------                                -------------
+  ->open soruce                             -->closed soruce
+  ->free of cost                            -->not for free of cost
+  ->secure                                  -->insecure
+  ->low hardware cost                       -->high harwdare cost
+
+-->advantages of redhat linux:-
