@@ -23,7 +23,9 @@ ubuntu linux commands or centos commands
 14.#->root user->full access
 15.pwd (it shows present/print  working directory)
 16.ls ->it shows list of files and directorys
-17.ls -l->it shows list of files and directorys in order
+17.ls -l or ll ->it shows list of files and directorys in order
+--> ls path(ex:/etc)
+-->to move file from one location to another location use the command:- (cp soruce file/destination location)
 -->echo is used to print the message what we have given.
 18.sharing:-
 ======================================================
@@ -154,7 +156,7 @@ to reduce the redundancy we will use normalization and decomposition.
 ---->cat filename
 ---->time
 ---->ls
----->ls -l
+---->ls -l or ll or ls -l particualr filename
 ---->who
 ---->whoami
 ---->|-->root tag
@@ -166,6 +168,7 @@ to reduce the redundancy we will use normalization and decomposition.
 ---->head -n 2 filename(first two lines)
 ---->tail -n 3 filename(last three lines)
 ----->tail -n 2 filename(last two lines)
+----->less filename(it will show top line form tht middle of the file and so on)
 ----->wc(word count):-
 syntax:wc filename
 ------>wc -l filename(no.of lines)
@@ -263,6 +266,7 @@ links:-(to create multiple links)
 -->vim edito:
 =================
 -->vim filename
+--->first we are in command mode.
 -->press "i" -->insert mode
 -->press "escape" to exit from insert mode.
 -->press "shift+: " to save the file
@@ -271,7 +275,8 @@ links:-(to create multiple links)
 we can repeat the same process many times.
 -->to view the content press "v" after exit from insert mode.
 -->vimtutor-->to know entire descrption .
-===========================================
+-->:set nu -->this assign numbers to the content lines in the file.
+=================================================================================
 nano editor:-
 =================
 -->nano filename 
@@ -371,6 +376,8 @@ eg:-
     chmod 777 /home/sensors/iot
     chmod 511 /home/sensors/iot
     chmod 222 /home/sensors/iot
+ ---> "umask" default value is 0022.
+ ---> to change the umask value type: umask "number".
 =======================================================================================================================================
 -->process management:-
 ======================================
@@ -478,6 +485,7 @@ echo "</pre>";
 -->what are the advantages of redaht linux
 -->what are the applications and services provided by redhat
 ----------------------------------------------------------------------------------------
+-->linux:- linux is a unix-like open soure operating system . linux is packaged as the linux distribution which contains standard libraries and krenel etcc .. there are 600+ flavours in linux
 -->RedHat :- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
 -->windows :- it is an user friendly operating system which acts as interface between computer hardware and user. also  it is a graphical operating system developed by microsoft.
 -->difference b/w linux and windows :- 
@@ -488,4 +496,4 @@ echo "</pre>";
   ->secure                                  -->insecure
   ->low hardware cost                       -->high harwdare cost
 
--->advantages of redhat linux:-
+-->applications of redhat linux:-
