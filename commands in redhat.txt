@@ -1,3 +1,7 @@
+System Administartor:-
+==================================
+the main aim of system admin is to create server ,manage server and configure the server.
+============================================================================================
 ubuntu linux commands or centos commands
 ====================================================
 1.who
@@ -453,9 +457,16 @@ SYSTEM SERVICES AND SOFTWARE UPDATES:-
 -->"systemctl enable sshd".
 -->"systemctl disable sshd".
 -->"systemctl restart sshd".
+-->"systemctl reload sshd".
+-->"systemctl" -->shows number of services.
+-->"systemctl is ".
+-->"systemctl is-active sshd" -->tells whether the service is active or not
+-->"systemctl is-inactive sshd" -->tells whether the service is inactive or not
+-->"systemctl is-failed sshd"
 -->d-->refers to deamon.
 -->"dnf install package name".
 -->dnf install httpd"-->httpd is a web service.
+-->the original name daemons is berkley named daemon.
 -->ssh-keygen-->it will generate the keys.
 -->cd .ssh--> ls -l -->ls -la -->vmware-hgfsclinet -->cd /mnt -->ls -->cd hgfs -->ls
 -->cp ~/.ssh/id_rsa.pub to ssh keys folder.
