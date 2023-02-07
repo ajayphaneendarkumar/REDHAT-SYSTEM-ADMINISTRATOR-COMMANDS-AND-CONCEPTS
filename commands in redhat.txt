@@ -523,7 +523,14 @@ echo "</pre>";
 
 -->applications or services of redhat:-
           -->
-
+==============================================================================================================================================
+analyze and store logs:-
+==============================
+-->GO TO THE PATH -->cd /var/log/filenames 
+-->/var/log/meassages
+-->/var/log/boot.log
+-->/var/log/secure
+--> /var/log/maillog
 
 
 
