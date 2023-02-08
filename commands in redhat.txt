@@ -463,6 +463,7 @@ SYSTEM SERVICES AND SOFTWARE UPDATES:-
 -->"systemctl is-active sshd" -->tells whether the service is active or not
 -->"systemctl is-inactive sshd" -->tells whether the service is inactive or not
 -->"systemctl is-failed sshd"
+-->"systemctl restart NetworkingManager".
 -->d-->refers to deamon.
 -->"dnf install package name".
 -->dnf install httpd"-->httpd is a web service.
