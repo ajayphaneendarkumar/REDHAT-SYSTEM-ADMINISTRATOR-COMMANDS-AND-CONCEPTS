@@ -557,7 +557,7 @@ MANAGE NETWORKING IN LINUX:-
     -->command:"nmcli" (network managing through command line).
     -->"nmcli dev status"-->physical one
     -->"nmcli connection or con  show"  --->shows how many con are there.
-    -->"nmcli connection or con status"  -->shows connection status up/down.
+    -->"nmcli connection or con delete con-name"  -->shows connection status up/down.
     -->"nmcli con up connection-name".   --->turn connection to up/active.
     -->"nmcli con add con-name "name" type ethernet ifname "ens160". --->//to add a connection.
     -->"nmcli connection or con add con-name "name(static)" type ethernet ifname ens160 ipv4.addresses "give oneip" ipv4.gateway "give the gateway" autoconnect no.  -->to add connection and give ip manually.
