@@ -567,8 +567,20 @@ MANAGE NETWORKING IN LINUX:-
     -->nmli con reload con-name.
     -->nmli con load con-name.
     =====================================================================================================
-
-
-
+   PARTITIONING:-
+==========================
+-->lsblk -->shows list of partitions.
+-->mkfs(make file system) -t ext4 /dev/partition name or  mkfs.ext4 /dev/partition name-->formatting the partition.
+-->blkid -->block id
+-->df(disk free) -h /root/directoryname/
+--> for temporary mounting perform the following process
+     -->first create a directory -->mkdir directoryname
+     -->now perform "mount /dev/partitionname  /root/directoryname
+-->unmount /dev/partitionname.
+-->for permanent mounting:-
+    -->vim /etc/fstab
+    -->/dev/sda2 <tabspace>  /root/thubserver <tab> ext4
+       <tab> defaults <tab> 0 <space> 0
+   ------------------------------------------------------------
 
 
