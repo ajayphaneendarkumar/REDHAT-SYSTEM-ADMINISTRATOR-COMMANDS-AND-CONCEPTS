@@ -570,6 +570,16 @@ MANAGE NETWORKING IN LINUX:-
    PARTITIONING:-
 ==========================
 -->lsblk -->shows list of partitions.
+-->fdisk /dev/sda
+n //to create new partition
+
+p
+
+1
+
++2G
+
+w
 -->mkfs(make file system) -t ext4 /dev/partition name or  mkfs.ext4 /dev/partition name-->formatting the partition.
 -->blkid -->block id
 -->df(disk free) -h /root/directoryname/
@@ -582,5 +592,4 @@ MANAGE NETWORKING IN LINUX:-
     -->/dev/sda2 <tabspace>  /root/thubserver <tab> ext4
        <tab> defaults <tab> 0 <space> 0
    ------------------------------------------------------------
-
 
