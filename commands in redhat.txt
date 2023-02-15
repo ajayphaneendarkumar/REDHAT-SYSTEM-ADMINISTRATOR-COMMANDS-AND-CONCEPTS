@@ -571,15 +571,11 @@ MANAGE NETWORKING IN LINUX:-
 ==========================
 -->lsblk -->shows list of partitions.
 -->fdisk /dev/sda
-n //to create new partition
-
-p
-
-1
-
-+2G
-
-w
+     -->  n //to create new partition -->there are two types of partitions they are:primary and extended -->by default it will take primary.
+       -->  w   write table to disk and exit
+       -->  q   quit without saving changes
+       -->  p    print the partition table
+       -->  d    delete the partition
 -->mkfs(make file system) -t ext4 /dev/partition name or  mkfs.ext4 /dev/partition name-->formatting the partition.
 -->blkid -->block id
 -->df(disk free) -h /root/directoryname/
@@ -596,6 +592,5 @@ w
 -->swapoff  /dev/sda2
 -->swaplabel /dev/sda2
 -->free -h   -->shows total memory space.
--->
    ------------------------------------------------------------
 
