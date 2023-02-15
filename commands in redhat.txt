@@ -591,5 +591,11 @@ w
     -->vim /etc/fstab
     -->/dev/sda2 <tabspace>  /root/thubserver <tab> ext4
        <tab> defaults <tab> 0 <space> 0
+  -->mkswap /dev/sda2
+-->swapon   /dev/sda2
+-->swapoff  /dev/sda2
+-->swaplabel /dev/sda2
+-->free -h   -->shows total memory space.
+-->
    ------------------------------------------------------------
 
