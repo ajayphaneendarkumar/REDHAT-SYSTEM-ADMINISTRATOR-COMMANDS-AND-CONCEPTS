@@ -601,3 +601,18 @@ SCHEDULE FUTURE TASKS:-
 -->"crontab -l" -->list the jobs for the cuurent user.
 -->"crontab -r "--->remove all jobs for the current user.
 -->"crontab -e " -->to edit jobs for the cureent user.
+-->The fields in the crontab file appear in the following order:
+
+Minutes
+
+Hours
+
+Day of month
+
+Month
+
+Day of week
+
+Command
+-------------------------------------
+-->
