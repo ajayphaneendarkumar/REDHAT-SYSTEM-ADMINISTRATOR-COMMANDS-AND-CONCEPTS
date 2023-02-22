@@ -593,4 +593,11 @@ MANAGE NETWORKING IN LINUX:-
 -->swaplabel /dev/sda2
 -->free -h   -->shows total memory space.
    ------------------------------------------------------------
-
+SCHEDULE FUTURE TASKS:-
+==========================
+-->there are two shecdulers they are :
+          -->"AT JOB" -->"CRONTAB"
+-->"atq" ->sohws the jobs in  q.
+-->"crontab -l" -->list the jobs for the cuurent user.
+-->"crontab -r "--->remove all jobs for the current user.
+-->"crontab -e " -->to edit jobs for the cureent user.
