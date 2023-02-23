@@ -596,9 +596,9 @@ MANAGE NETWORKING IN LINUX:-
 SCHEDULE FUTURE TASKS:-
 ==========================
 -->there are two shecdulers they are :
-          -->"AT JOB" -->"CRONTAB"
+          -->"ATQ JOB" -->"CRONTAB JOB"
 -->"atq" ->sohws the jobs in  q.
--->"crontab -l" -->list the jobs for the cuurent user.
+-->"crontab -l" -->list the jobs for the current user.
 -->"crontab -r "--->remove all jobs for the current user.
 -->"crontab -e " -->to edit jobs for the cureent user.
 -->The fields in the crontab file appear in the following order:
