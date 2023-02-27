@@ -1,8 +1,0 @@
-Web Development:-(front end development)
-===================================================
--->HTML,CSS,JAVASCRIPT
--->HTML(hyper text markup language)is user for page structure.
--->CSS(cascading style sheet) takes the control over webpage.
--->JAVASCRIPT is used for creating functional content to the web page.
--->front end development is also called client side development which is developed by using html,css,javascript.
--->
