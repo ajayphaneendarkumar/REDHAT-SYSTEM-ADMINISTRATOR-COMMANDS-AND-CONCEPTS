@@ -592,7 +592,9 @@ MANAGE NETWORKING IN LINUX:-
 -->swapoff  /dev/sda2
 -->swaplabel /dev/sda2
 -->free -h   -->shows total memory space.
-   ------------------------------------------------------------
+------------------------------------------------------------
+MODULE-2:-
+=================================================================
 SCHEDULE FUTURE TASKS:-
 ==========================
 -->there are two shecdulers they are :
