@@ -594,15 +594,17 @@ MANAGE NETWORKING IN LINUX:-
 -->free -h   -->shows total memory space.
 ------------------------------------------------------------
 MODULE-2:-
-=================================================================
+===============================================
 SCHEDULE FUTURE TASKS:-
 ==========================
 -->there are two shecdulers they are :
           -->"ATQ JOB" -->"CRONTAB JOB"
 -->"atq" ->sohws the jobs in  q.
--->"crontab -l" -->list the jobs for the current user.
+-->"atqrm"-->this command is used to remove deffered userjob.
+-->"crontab -l" -->list the jobs for the cuurent user.
 -->"crontab -r "--->remove all jobs for the current user.
 -->"crontab -e " -->to edit jobs for the cureent user.
+-->"/etc/cron.daily" -->to the cron job daily.
 -->The fields in the crontab file appear in the following order:
 
 Minutes
@@ -616,5 +618,8 @@ Month
 Day of week
 
 Command
--------------------------------------
--->----->"15 12 11 * Fri command" -->example
+----->"15 12 11 * Fri command" -->example
+=============================================================================
+SELINUX(security enhanced linux) PROTECTS RESOURCES:-
+=============================================================
+
