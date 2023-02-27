@@ -622,4 +622,8 @@ Command
 =============================================================================
 SELINUX(security enhanced linux) PROTECTS RESOURCES:-
 =============================================================
-
+-->"sestatus" -->shows the status of the selinux.
+-->"setenforce 0" and "getenforce"-->the current mode changes to permissive.
+-->"setenforce 1" and "getenforce"-->the current mode again changes to enforcing.
+-->"vim /etc/selinux/config" -->to make the current modes either enforcing or permissive or disable the selinux permanently.
+-->
