@@ -626,4 +626,6 @@ SELINUX(security enhanced linux) PROTECTS RESOURCES:-
 -->"setenforce 0" and "getenforce"-->the current mode changes to permissive.
 -->"setenforce 1" and "getenforce"-->the current mode again changes to enforcing.
 -->"vim /etc/selinux/config" -->to make the current modes either enforcing or permissive or disable the selinux permanently.
+-->"ls -Z file path" -->to see the content of each and every selinux file.
+-->"semanage fcontext -l" -->to see all the context of selinux files.
 -->
