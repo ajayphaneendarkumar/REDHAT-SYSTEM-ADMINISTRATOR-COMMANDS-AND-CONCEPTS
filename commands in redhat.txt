@@ -650,3 +650,7 @@ CONTROL BOOT PROCESS:-
 -->"systemctl get-default" -->shows the default target(graphical,multi-user,rescue,emergency)
 -->"systemctl set-default multi-user.target"-->to change the default target.
 -->"systemctl isolate multi-user.target"
+   --------------------------------------------------------------------------
+  6 STAGES IN LINUX BOOT PROCESS:-
+  =========================================================
+  
