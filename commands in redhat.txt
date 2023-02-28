@@ -648,5 +648,5 @@ CONTROL BOOT PROCESS:-
 -->"systemctl poweroff" -->stops the all running services.
 -->"systemctl reboot"--->stops the all running services and unmount all processes.
 -->"systemctl get-default" -->shows the default target(graphical,multi-user,rescue,emergency)
--->systemctl set-default multi-user.target"-->to change the default target.
--->
+-->"systemctl set-default multi-user.target"-->to change the default target.
+-->"systemctl isolate multi-user.target"
