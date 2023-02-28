@@ -627,12 +627,14 @@ SELINUX(security enhanced linux) PROTECTS RESOURCES:-
 -->"setenforce 1" and "getenforce"-->the current mode again changes to enforcing.
 -->"vim /etc/selinux/config" -->to make the current modes either enforcing or permissive or disable the selinux permanently.
 -->"ls -Z file path" -->to see the context of each and every selinux file.
--->"semanage fcontext -l" -->to see all the context of selinux files.
-Manage the [policy boolean:-
+Manage the policy boolean:-
 ------------------------------
+-->"semanage fcontext -l" -->to see all the context of selinux files.
 -->"getsebool -a"
 -->"getsebool object name";
--->"setsebool httpd enable homedirs(object name) on"
 -->"semanage boolean -l | grep httpd_enable_homedirs(object name)"
--->"semanage boolean -l -c" -->description.
+-->"setsebool httpd enable homedirs(object name) on"
+-->"semanage boolean -l -C" -->description.
 ====================================================================================
+CONTROL BOOT PROCESS:-
+======================================
