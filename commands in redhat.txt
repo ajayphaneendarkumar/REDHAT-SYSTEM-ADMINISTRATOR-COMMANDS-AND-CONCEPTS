@@ -638,13 +638,13 @@ Manage the policy boolean:-
 ====================================================================================
 CONTROL BOOT PROCESS:-
 ======================================
--->INIT 0 = "shutdown"
+-->INIT 0 = "shutdown" or "halt"
 -->INIT 1 ="single user"
 -->INIT 2 ="multi user with no NFS(network file system)"
--->INIT 3 ="multi user with NFS"
+-->INIT 3 ="multi user with NFS" or "Full multiuser mode"
 -->INIT 4="NOT DEFINED".
--->INIT 5="multi user with NFS and GUI.
--->INIT 6="restart"
+-->INIT 5="multi user with NFS and GUI" or x11.
+-->INIT 6="restart" or "reboot"
 -->"systemctl poweroff" -->stops the all running services.
 -->"systemctl reboot"--->stops the all running services and unmount all processes.
 -->"systemctl get-default" -->shows the default target(graphical,multi-user,rescue,emergency)
