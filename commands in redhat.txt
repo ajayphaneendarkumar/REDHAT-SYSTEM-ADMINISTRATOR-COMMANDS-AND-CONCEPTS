@@ -638,3 +638,11 @@ Manage the policy boolean:-
 ====================================================================================
 CONTROL BOOT PROCESS:-
 ======================================
+-->INIT 0 = "shutdown"
+-->INIT 1 ="single user"
+-->INIT 2 ="multi user with no NFS(network file system)"
+-->INIT 3 ="multi user with NFS"
+-->INIT 4="NOT DEFINED".
+-->INIT 5="multi user with NFS and GUI.
+-->INIT 6="restart"
+-->
