@@ -663,8 +663,12 @@ CONTROL BOOT PROCESS:-
   -->"firewall-cmd --remove-source-CIDR[--zone=zone]"
   -->"firewall-cmd --list-all"-->List all configured interfaces, sources, services, and ports for ZONE. 
   -->"firewall-cmd --list-all-zones"
-  -->"firewall-cmd --add-service=SERVICE"
-  -->"firewall-cmd --remove-service=SERVICE"
+  -->"firewall-cmd --add-service=SERVICE Name"
+  -->"firewall-cmd --remove-service=SERVICE Name"
   -->"firewall-cmd --add-port=(portnumber)/(protocol) (eg:- 450/tcp)" 
   -->"firewall-cmd --remove-port=(portnumber)/(protocol)"
-  -->
+  -->"semanage port -l"
+  -->"semanage port -l|grep service name(eg:-ftp)"
+  -->"semanage port -l - C"
+  --------------------------------------------------------------------------------------------------------------------
+  
