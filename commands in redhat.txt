@@ -653,4 +653,18 @@ CONTROL BOOT PROCESS:-
    --------------------------------------------------------------------------
   6 STAGES IN LINUX BOOT PROCESS:-
   =========================================================
-  
+  MANAGE NETWORK SECURITY:-
+  =========================
+  -->"firewall-cmd --get-default-zone"-->query the current zone.
+  -->"firewall-cmd --get-zones"--->list all available zones.
+  -->"firewall-cmd --set-default-zone=zone name(eg:-home)"-->changes both default and permanent configuration.
+  -->"firewall-cmd --get-active-zones" -->list all cuurently using zones.
+  -->"firewall-cmd --add-resource=CIDR[--zone=zone name]"
+  -->"firewall-cmd --remove-resource-CIDR[--zone=zone]"
+  -->"firewall-cmd --list-all"-->List all configured interfaces, sources, services, and ports for ZONE. 
+  -->"firewall-cmd --list-all-zones"
+  -->"firewall-cmd --add-service=SERVICE"
+  -->"firewall-cmd --remove-service=SERVICE"
+  -->"firewall-cmd --add-port=(portnumber)/(protocol) (eg:- 450/tcp)" 
+  -->"firewall-cmd --remove-port=(portnumber)/(protocol)"
+  -->
