@@ -653,8 +653,8 @@ CONTROL BOOT PROCESS:-
    --------------------------------------------------------------------------
   6 STAGES IN LINUX BOOT PROCESS:-
   =========================================================
-  MANAGE NETWORK SECURITY:-
-  =========================
+  MANAGE NETWORK SECURITY:-(firewall-cmd commands)
+  ===================================================
   -->"firewall-cmd --get-default-zone"-->query the current zone.
   -->"firewall-cmd --get-zones"--->list all available zones.
   -->"firewall-cmd --set-default-zone=zone name(eg:-home)"-->changes both default and permanent configuration.
