@@ -26,6 +26,7 @@ ubuntu linux commands or centos commands
 13.$->standard user->limited access
 14.#->root user->full access
 15.pwd (it shows present/print  working directory)
+  -->pwsh -->it is used to login for linux power shell
 16.ls ->it shows list of files and directorys
 17.ls -l or ll or ls -l particular filename ->it shows list of files and directorys in order
 --->ls path(ex:/etc)
@@ -524,7 +525,7 @@ echo "</pre>";
 
 -->applications or services of redhat:-
           -->
-==============================================================================================================================================
+=======================================================================================================================================================================
 analyze and store logs:-
 ==============================
 -->GO TO THE PATH -->cd /var/log/filenames 
