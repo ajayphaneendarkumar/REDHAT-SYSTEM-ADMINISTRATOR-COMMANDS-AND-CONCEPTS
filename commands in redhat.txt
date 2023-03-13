@@ -448,7 +448,7 @@ eg:-
  -->"yum update"->this is used to install the updates.
  -->"dnf update"-->this is also same as yum update.
 ======================================================================================
-SYSTEM SERVICES AND SOFTWARE UPDATES:-
+SYSTEM SERVICES AND SOFTWARE UPDATES(CONTROL SERVICES AND DEAMONS):-
 =======================================================================================
 -->"systemctl" ->this command deals with the system services.
 --> "systemctl status ssh" or "systemctl status sshd" -->checks whether system installaed ssh or not.
