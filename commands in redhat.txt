@@ -288,6 +288,8 @@ we can repeat the same process many times.
 -->to view the content press "v" after exit from insert mode.
 -->vimtutor-->to know entire descrption .
 -->:set nu -->this command assign numbers to the content lines in the file.
+-->gcc filename.c -->to compile the code
+-->./a.out -->to run the code.
 =========================================================================
 nano editor:-
 =================
