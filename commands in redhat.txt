@@ -398,6 +398,7 @@ eg:-
     chmod 222 /home/sensors/iot
  ---> "umask" default value is 0022.
  ---> to change the umask value type: umask "number".
+ -->chmod -1777 /home/directory/filename or /home/directory name. -->it will delete all the permissions that a file or directorty having.
 =======================================================================================================================================
 -->process management:-
 ======================================
