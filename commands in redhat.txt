@@ -677,4 +677,9 @@ CONTROL BOOT PROCESS:-
   -->"semanage port -l|grep service name(eg:-ftp)"
   -->"semanage port -l - C"
   --------------------------------------------------------------------------------------------------------------------
-  
+  -->vi /etc/yum.repos.d/local.repo -->this is used to create repositories
+       -->name=""
+       -->baseurl="url"
+       -->gpgcheck=0
+       -->enabled=1
+ -->
