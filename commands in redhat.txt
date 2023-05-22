@@ -637,6 +637,8 @@ Manage the policy boolean:-
 -->"getsebool -a"
 -->"getsebool object name";
 -->"semanage boolean -l | grep httpd_enable_homedirs(object name)"
+-->"semanage port -l | grep http"
+-->"semanage port -a -t http_port_t -p tcp "port number" 
 -->"setsebool httpd enable homedirs(object name) on"
 -->"semanage boolean -l -C" -->description.
 ====================================================================================
@@ -682,4 +684,7 @@ CONTROL BOOT PROCESS:-
        -->baseurl="url"
        -->gpgcheck=0
        -->enabled=1
+ -->dnf clean all
+ -->dnf repolist all
+ -->dnf install vim -y
  -->
