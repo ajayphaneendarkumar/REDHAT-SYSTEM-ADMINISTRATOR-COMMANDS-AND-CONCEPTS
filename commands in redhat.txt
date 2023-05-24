@@ -346,7 +346,7 @@ in passwd it changes the description of the particular user(which we have mentio
 --> to change group name follow the syntax-->groupmod -n "new name for existing group name" actual-group-name.
 -->(su - username)-->directly it will show the home directory.
 -->we will  use "usermod" for modification of data and "userdd" is to add users and their data like ids -->for example:- useradd -u "id" username.
--->
+-->passwd --stdin username -->to set password for the users.
 =================================================================================================================================================
 TIME ZONES:-
 =================================================================================================================================================
