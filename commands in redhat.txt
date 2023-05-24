@@ -245,7 +245,7 @@ Free Cell: freecell
 =========================================
 -->linux is a case sensitive 
 -->shutdown (it will poweroff entire centos)
--->mkdir aec/cse(first we have to create the aec directory and then create cse directory)
+-->mkdir aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
 -->cd aec and then type ls -l-->then you will see the cse directory.
 -->rm -rf directoryname or rmdir directory name(to delete the directory without any conformation)
 -->(.)->represents existing directory
@@ -388,6 +388,7 @@ FILE/DIRECTORY PERMISSIONS:-
    2.chown :gropuanme /home/directoryname/filename.
    3.chmod g(group)+w(write) /home/sensors-->this is for directory.
    4.chmod (g+w or o+w or u+w) /home/sensors/filename -->>this is for files.
+   5.chgrp groupname path-->chgrp admin /common/admin
 -->in place of giving permissions like g+w,u+w,o+w we can directly follow the below syntax
    r=4
    w=2
