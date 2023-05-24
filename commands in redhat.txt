@@ -28,7 +28,7 @@ ubuntu linux commands or centos commands
 15.pwd (it shows present/print  working directory)
   -->pwsh -->it is used to login for linux power shell
 16.ls ->it shows list of files and directorys
-17.ls -l or ll or ls -l particular filename ->it shows list of files and directorys in order
+17.ls -l or ll or ls -l   particular filename or ls -ld particular directory path ->it shows list of files and directorys in order
 --->ls path(ex:/etc)
 -->to move files form one location to another :-  cp source file/destination file.
 -->echo is used to print the message what we have given.
