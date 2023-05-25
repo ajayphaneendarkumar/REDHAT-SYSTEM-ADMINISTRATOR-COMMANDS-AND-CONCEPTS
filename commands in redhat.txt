@@ -688,4 +688,8 @@ CONTROL BOOT PROCESS:-
  -->dnf clean all
  -->dnf repolist all
  -->dnf install vim -y
+ -->mkdir -p /common/admin
+ -->passwd --stdin "username"
+ -->chgrp admin /common/admin
+ -->chown  g+s /common/admin/f1
  -->
