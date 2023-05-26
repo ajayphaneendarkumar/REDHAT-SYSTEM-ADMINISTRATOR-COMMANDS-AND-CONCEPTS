@@ -693,3 +693,7 @@ CONTROL BOOT PROCESS:-
  -->chgrp admin /common/admin
  -->chmod  g+s /common/admin/f1
  -->NTP stands for network time protocol.
+ configure NTP:-
+-->vim /etc/chrony.conf
+    -->keep commemnt for the ip address line and add new line "server classroom.example.com iburst"
+-->
