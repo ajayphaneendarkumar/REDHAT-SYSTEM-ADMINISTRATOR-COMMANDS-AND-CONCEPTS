@@ -698,4 +698,7 @@ CONTROL BOOT PROCESS:-
     -->keep commemnt for the ip address line and add new line "server classroom.example.com iburst"
 -->systemctl restart chronyd
 -->chronyc sources
+-->mkdir /root/find.user
+-->find / -user sarah -type f
+-->find / -user sarah -type f -exec cp {} /root/find.user \;
 -->
