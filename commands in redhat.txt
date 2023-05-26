@@ -606,9 +606,9 @@ SCHEDULE FUTURE TASKS:-
           -->"ATQ JOB" -->"CRONTAB JOB"
 -->"atq" ->sohws the jobs in  q.
 -->"atqrm"-->this command is used to remove deffered userjob.
--->"crontab -l" -->list the jobs for the cuurent user.
--->"crontab -r "--->remove all jobs for the current user.
--->"crontab -e " -->to edit jobs for the cureent user.
+-->"crontab -lu "username" " -->list the jobs for the cuurent user.
+-->"crontab -ru "username"  "--->remove all jobs for the current user.
+-->"crontab -eu  "username" " -->to edit jobs for the cureent user.
 -->"/etc/cron.daily" -->to the cron job daily.
 -->The fields in the crontab file appear in the following order:
 
@@ -616,14 +616,14 @@ Minutes
 
 Hours
 
-Day of month
+Day of month or day
 
 Month
 
-Day of week
+Day of week or week day
 
 Command
------>"15 12 11 * Fri command" -->example
+----->"15 12 11 * Friday" -->example
 =============================================================================
 SELINUX(security enhanced linux) PROTECTS RESOURCES:-
 =============================================================
