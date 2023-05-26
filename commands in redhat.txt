@@ -696,4 +696,6 @@ CONTROL BOOT PROCESS:-
  configure NTP:-
 -->vim /etc/chrony.conf
     -->keep commemnt for the ip address line and add new line "server classroom.example.com iburst"
+-->systemctl restart chronyd
+-->chronyc sources
 -->
