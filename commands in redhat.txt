@@ -691,5 +691,5 @@ CONTROL BOOT PROCESS:-
  -->mkdir -p /common/admin
  -->passwd --stdin "username"
  -->chgrp admin /common/admin
- -->chown  g+s /common/admin/f1
- -->
+ -->chmod  g+s /common/admin/f1
+ -->NTP stands for network time protocol.
