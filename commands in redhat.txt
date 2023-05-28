@@ -701,4 +701,6 @@ CONTROL BOOT PROCESS:-
 -->mkdir /root/find.user
 -->find / -user sarah -type f
 -->find / -user sarah -type f -exec cp {} /root/find.user \;
+-->grep "home" /etc/passwd
+-->grep "home" /etc/passwd > /root/search.txt
 -->
