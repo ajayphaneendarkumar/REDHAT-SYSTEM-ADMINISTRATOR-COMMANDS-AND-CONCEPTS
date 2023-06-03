@@ -758,7 +758,7 @@ CONTROL BOOT PROCESS:-
      /dev/vdb1  swap  swap  defaults  0 0
   -->swapon -a
   -->free -h
--->rht-rmctl reset all
+-->rht-vmctl reset all
 -->lsblk
 -->fdisk /dev/vdb
 -->n,p,2,+2G,t,lvm,w
