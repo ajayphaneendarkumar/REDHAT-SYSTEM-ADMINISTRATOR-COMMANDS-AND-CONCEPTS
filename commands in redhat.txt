@@ -705,4 +705,57 @@ CONTROL BOOT PROCESS:-
 -->grep "home" /etc/passwd > /root/search.txt
 -->Back up /var/tmp as /root/test.tar.gz or /root/test.tar.tgz --> -zcvf
 -->back up /var/tmp as /root/test.tar.bz2 or /root/test.tar.tbz2 --> -jcvf
--->
+-->su - natasha
+  -->vim .bash_profile
+      -->umask 277
+   -->source .bash_profile
+   -->umask
+   -->tocuh f1
+   -->mkdir dir
+   -->ls -l
+-->logout
+-->vim /etc/login.defs
+-->vim /etc/suoders
+   %admin ALL=(ALL) NOPASSWD: ALL
+-->su - alies
+-->vim .bash_profile
+   -->rhcsa = "welcome to advantage pro"
+   -->export rhcsa
+   -->echo "$rhcsa"
+-->source .bash_profile
+-->logout
+-->su -alies
+-->logout
+-->mkdir /root/myfiles
+-->vim /usr/local/bin/mysearch
+  -->#!/bin/sh
+      find /usr/share  -type f -size -1M -exec cp {} /root/myfiles/ \;
+      find /usr/share  -type f -size +400k -size -800k -exec cp {} /root/myfiles/ \;
+      find /usr/share  -type f -size -1M -perm /4000 -exec cp {} /root/myfiles/ \;
+      find /usr/sahre  -type f -size -1M -perm /2000 -exec cp {} /root/myfiles/ \;
+ -->chmod +x /usr/local/bin/mysearch
+ -->mysearch
+ -->ls /root/myfiles
+ -->goto workstation and execute the command lab start boot-resetting
+ -->now go to servera or node2 and then click "circle" on left corner
+ -->after come down to second and press "e"
+ -->go tothe linux line end and execute the command "rd.beak" 
+ -->press "ctrl-x"
+ -->press contiune
+ -->mount -o remount,rw /sysroot
+ -->chroot /sysroot
+ -->passwd 
+  --->enter password
+ -->touch /.autorelabel
+ -->exit
+ -->exit
+ -->free -h
+ -->lsblk
+ -->fdisk /dev/vdb
+ -->n,p,1,+512M,t,swap,w
+ -->mkswap /dev/vdb1
+ -->vim /etc/fstab
+     /dev/vdb1  swap  swap  defaults  0 0
+  -->swapon -a
+  -->free -h
+  
