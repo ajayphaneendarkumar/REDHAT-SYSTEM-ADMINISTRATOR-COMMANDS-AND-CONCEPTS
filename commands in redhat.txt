@@ -758,4 +758,25 @@ CONTROL BOOT PROCESS:-
      /dev/vdb1  swap  swap  defaults  0 0
   -->swapon -a
   -->free -h
-  
+-->rht-rmctl reset all
+-->lsblk
+-->fdisk /dev/vdb
+-->n,p,2,+2G,t,lvm,w
+-->vgcreate -s 8M datastore /dev/vdb2
+-->lvcreate -l 50 -n database  datastore
+-->mkfs.ext3 /dev/datastore/database
+-->mkdir /mnt/database
+-->vim /etc/fstab
+   /dev/datastore/database  /mnt/database ext3  defaults  0 0
+-->mount -a
+-->lsblk
+-->df -hT
+-->lvextend -l 100 -r /dev/mapper/datastore-database 
+-->dnf install tuned -y
+-->systemctl start tuned
+-->systemctl enable tuned
+-->systemctl status tuned
+-->tuned-adm recommend 
+-->tuned-adm profile virtual-guest
+-->tuned-adm active
+-->systemctl restart tuned
