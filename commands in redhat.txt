@@ -811,16 +811,16 @@ in root@serverb:-
 --------------------------------------------------------------------------
 in student@servera:-
 ==========================
--->podman rum -d --name asciipdf2 -v /opt/files:/opt/incoming:Z -v /opt/processed:/opt/outcoming:Z localhost/monitor:latest
+-->podman rum -d --name ascii2pdf -v /opt/files:/opt/incoming:Z -v /opt/processed:/opt/outcoming:Z localhost/monitor:latest
 -->podman ps
 -->mkdir -p ~/.config/systemd/user
 -->cd ~/.config/systemd/user
--->podman generate systemd --name asciipdf2 --files --new
--->podman stop asciipdf2
--->podman rm asciipdf2
+-->podman generate systemd --name ascii2pdf --files --new
+-->podman stop ascii2pdf
+-->podman rm ascii2pdf
 -->systemctl --user daemon-reload
--->systemctl --user start container-asciipdf2.service
--->systemctl --user enable container-asciipdf2.service
+-->systemctl --user start container-ascii2pdf.service
+-->systemctl --user enable container-ascii2pdf.service
 -->podman ps
 =======================================================================
 in root@servera:-
