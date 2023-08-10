@@ -1,158 +1,116 @@
-System Administartor:-
+SYSTEM ADMINISTRATOR:-
 ==================================
-the main aim of system admin is to create server ,manage server and configure the server.
-============================================================================================
-ubuntu linux commands or centos commands
-====================================================
-1.who
-2.whoami
-3.date
-4.time
-5.cal->calender
-6.history
-7.To create a file
+-->The main Aim of system administrator  is to create server , manage server and configure the server.
+-->In this RHCSA(Redhat certified system administration) , they develop the trouble shooting skills for a system administrator.
+=================================================================================================================================
+INTRODUCTION:-
+====================
+-->linux is a case sensitive .
+-->Linux actually means the kernel of the system, which is the sole controller of whatever happens on the computer system.
+-->linux  is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing in the year 1994.
+-->redhat linux is completely open source network.
+-->open source in the sense we can modify the kernel and all other applications , more over it is a free of cost and anyone can use it anywhere in the world.
+-->Redhat linux is a open source operating system and moreover  it is a company , typical technology to learn and it provides subscriptions. 
+-->Also It provides applications to the software development tools.
+--->"4" years back redhat is adopted by "IBM" Company.
+-->unix and windows is completely closed source network ->developed by open network group.
+==============================================================================================================================================
+OPERATING SYSTEM:-
+===============================================================
+-->It act as interface between user and a computer hardware.
+-->READHAT is also a one type of operating system.
+-->Os is also called as system software.
+-->MAC os is compliant os of unix.
+================================================================
+VERSIONS OF REDHAT LINUX:-
+==============================
+-->Redhat Fedora- desktop version
+-->RHEL(redHat enterprise Linux) - server version
+-->centos- CD version -continuous delivery version but currently redhat ban the services of centos
+==================================================================================================
+VERSIONS OF WINDOWS:-
+========================
+-->windows desktop versions are windows10,windows11,..
+-->windows server versions are win 2016,2019,2020,2022..
+-->operating system->server version 
+================================================================
+BASIC COMMANDS OF LINUX:-
+======================================================
+-->who
+-->whoami
+-->date
+-->time
+-->cal->calender
+-->history
+-->To create a file
   --> cat > filename
   --->touch filename (it is used to show the time when we open the file)
-8.To see content of the file
+-->To see content of the file
    ---> cat filename
-9.To copy one file to another
+-->To modify content file
+   -->cat >> filename
+-->To copy one file to another
    ---> cp filename filename1
-10.TO move one file to another or for hiding the file.
+-->TO move one file to another or for hiding the file.
     --->mv filename1 filename2
-11.To create a directory
+-->To create a directory
     --> mkdir directoryname
-12.To change the directory
+-->To change the directory
      -->cd directoryname
-13.$->standard user->limited access
-14.#->root user->full access
-15.pwd (it shows present/print  working directory)
-  -->pwsh -->it is used to login for linux power shell
-16.ls ->it shows list of files and directorys
-17.ls -l or ll or ls -l   particular filename or ls -ld particular directory path ->it shows list of files and directorys in order
+-->"$"->standard user->limited access
+-->The Id of standard user starts form '1000'.
+-->"#"->root user->full access.
+-->The Id of root user is "0".
+-->pwd (it shows present/print  working directory)
+-->pwsh -->it is used to login for linux power shell
+-->ls ->it shows list of files and directory's.
+-->ls -l or ll or ls -l  filename or ls -ld  directory path ->it shows long list of files and directorys in ascending order.
 --->ls path(ex:/etc)
--->to move files form one location to another :-  cp source file/destination file.
--->echo is used to print the message what we have given.
-18.sharing:-
-======================================================
+-->To move files form one location to another Location :-  cp source file/destination file.
+-->"echo" is used to print the message what we have given.
+====================================================================================================================================
+SHARING CONCEPT WHEN BOTH THE SERVERS OR SYSTEMS ARE IN ONE NETWORK:-
+====================================================================
 --->first open the start menu and search for sharing and then open it ,now turn on all the private,public and all networks and turn of password protection and save the changes.
---->now create one folder or select one folder and copy one file in to it, if there is no files int it,if there are files no need to copy ,after that right click on that folder and goto
-    propeties and select sharing amd give full control for everyone.
+--->now create one folder or select one folder and copy one file in to it, if there is no files int it,if there are files no need to copy ,after that right click 
+    on that folder and goto propeties and select sharing amd give full control for everyone.
 --->Now in cmd type "ipconfig" and sned your ip address to all then they can access that sahred folder.
 ---->here the main point is the users must connect to same network.
-=======================================================
-19.work group networks
+===============================================================================================================================================
+CLIENT-SERVER ARCHITECTURE:-
 =====================================================
-peer - to - peer network
-=====================================================
-no security
-no control over data
-
-20.client server Architecture
-=====================================================
-server: central management services/resources
-client: will access services/resources
-Here both client and server both connect through a network called internet.
-=============================================================================
--->Graphical user interface(GUI)in linux environment:-
+-->Client-server is a important model in linux as well as in cloud computing.
+-->Client-server is about a client interacts and make a requests to a computer server.
+-->Here both client and server  connect through a network called internet.
+-->client-->the person who request the services from the server or the person who access the services provided by server.
+-->server-->the server looks for the services requested by client and it will provide those services to the client.
+==============================================================================================================================
+GRAPHICAL USER INTERFACES (GUI) IN LINUX ENVIRONMENT:-
 ===================================================
--->gnome
--->kde
-==============================================
--->command line interface in linux environment:-
-===============================================
+-->In graphical mode, The actual applications live in windows that we can resize and move around according to our needs. we have the menu and tools to help us find what we’re looking for.
+-->The GUI'S we are going to use are 
+     -->GNOME
+     -->KDE
+=====================================================
+COMMAND LINE INTERFACES (CLI) IN LINUX ENVIRONMENT:-
+======================================================
+-->The Command Line Interface (CLI), is a non-graphical, text-based interface to the computer system, where the user types in a command and the computer then successfully executes it.
+TYPES:-
+=======
 -->korne shell
 -->Zshell
 -->bourne shell
 -->bash(born again shell) -->mostly used.
-=============================================
-shells:-
-============================
-graphical user interface.
-command line interface.
-windows powershell.
-================================
-
-21)webserver-websites
- ========================================================
-
-eg:
-acet.ac.in--->surampalem
-server-computer
-
-web service-small software
-|
-operating system
-|
-ram
-|
-cpu
-|
-storage
-
-2)Amazon webserver
-------------------
-videos
-|
-software (videos,web series)
-|
-operating system
-|
-ram
-|
-cpu
-|
-storage
-
-3)LMS:
------
-A Learning Management System (LMS) 
-is an online integrated software used for creating, delivering, tracking, and reporting educational courses and outcomes
-
-eg:codemind
-
- 
-22.OPERATING SYSTEM:-
-===============================================================
-it act as interface between user and a computer hardware.
-READHAT is also a one type of operating system.
-================================================================
-versions of linux:-
-==============================
-Redhat Fedora- desktop version
-RHEL - server version
-centos- CD version -continuous delivery version
-===============================================================
-23.windows desktop versions are windows10,windows11,..
-24.windows server versions are win 2016,2019,2020,2022..
-25.linux  desktop version is ubuntu,redhat fedora .
-26.linux server version is rhel.
-27.operating system->server version 
-================================================================
-
-28.file service:-ftp,tftp(file transfer protocol,trivial file transfer protocol)
-29.file client:-filezilla,winscp
-===================================================================
--->mail service:-smtp(simple mail transfer protocol).
-30.IP SERVER:-
-================
-IP SERVICE->DHCP(dynamic host configuration protocol)
+==================================================================================================================================================================
+-->REDUNDANCY:-
 =====================================================================
-31.redundancy:-having multiple copies of same data or same info or same tpye.
-=====================================================================
-high-availability
-to reduce the redundancy we will use normalization and decomposition.
-=========================================================================
-
-32.linux os is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing inthe year 1994.
-33.redhat linux is completely open source network.
-34.unix is completely closed source network.->developed by open network group.
--->redhat is an open soruce linux operaing system.
--->readhat is a company.
--->it will provide applications to software development tools
+-->having multiple copies of same data or same info or same tpye.
+-->high-availability
+-->to reduce the redundancy we will use normalization and decomposition.
 ===============================================================================
-35.COMMANDS IN CENTOS:- 
-===========================================================
--->after power on 
+COMMANDS IN CENTOS:- 
+=============================
+--->after power on 
 --->first go to ctrl+alt+f4,f5,f6 and enter the username after that enter password 
 ---->now type sudo su after that enter password and then enter passwd root
 ---->now create new password to the user.
@@ -169,81 +127,58 @@ to reduce the redundancy we will use normalization and decomposition.
 ---->|-->root tag
 ---->cat > passwd(file created)
 ---->cat passwd(to view content of the file)
----->head passwd(shows first 10 lines)
----->tail passwd(shows last 10 lines)
----->head -n 3 filename(first three lines)
+---->head passwd(shows first 10 lines inthe file content)
+---->tail passwd(shows last 10 lines inthe file content)
+---->head -n 3 filename(first three lines) -->here head ->comand, -n 3 -->argument , filename -->opiton
 ---->head -n 2 filename(first two lines)
 ---->tail -n 3 filename(last three lines)
------>tail -n 2 filename(last two lines)
------>tail or head are called as commands.
------>-n 5 or  -n 20 are called as arguements.
------>/etc/passwd ->called as parameter.
----->less filename(to see top line to middle lines of the file).
------>wc(word count):-
+---->tail -n 2 filename(last two lines)
+---->tail or head are called as commands.
+---->-n 5 or  -n 20 are called as arguements.
+---->/etc/passwd ->called as option.
+---->less filename(to see top line to middle lines of the file)
+WORD COUNT INTHE FILE CONTENT RELATED COMMANDS:-
+==================================================
 syntax:wc filename
------->wc -l filename(no.of lines)
------>wc -w filename(no.of words)
------>wc -c filename(no.of characters)
------->wc -w -c filename(no.of words and characters)
------>useradd  username(to create new user)
------>passwd username(to create password)
------>userdel username--->to del user.
------>ls -l|more-->shows page wise.
+---->wc -l filename(no.of lines)
+---->wc -w filename(no.of words)
+---->wc -c filename(no.of characters)
+---->wc -w -c filename(no.of words and characters)
+---->ls -l|more-->shows page wise.
 ---->ls -l p*-->shows no.of files that start with p.
 ---->ls -l *p -->shows no of files that ends with p.
 ---->ls -l [!p]* -->that should not end with character p.
 ---->ls -l *p* -->contains all characters as "p".
------>pwd(print working directory or folder).
+---->pwd(print working directory or folder).
 ---->exit -->this command is used to exit from root user and converted in to standard user.
------>os is also called as system software.
------>MAC os is compliant os of unix.
------->the blinking operator in the shell is called prompt.
------>"/etc" contians the configuration files.
------>"f1 to f6" keys are called virtual keys or functional keys.
------>"/" is the starting directory of file heirarchy.
------>"/root" is the home directory of root user.
+---->the blinking operator in the shell is called prompt.
+---->"/etc" contians the configuration files.
+---->"f1 to f6" keys are called virtual keys or functional keys.
+---->"/" is the starting directory of file heirarchy.
+---->"/root" is the home directory of root user.
 ---->"/home" is the home directory of standard user.
 ---->history |more (it shows the no.of commands excuted in a pagewise).
 ---->!(number)-->to see particular command in the history.
---->cd -(it will show the present and previous directorys).
---->ctrl+c is used to kill the process.
---->ls -lR(to see files in a directories). 
--->ls -lr
---->ls -ld
---->ls --lr|more(page wise)
---->ls --lR|more(page wise)
---->man ls(to get manual pages)
---->man cat.
---->ls -la(to see long listing files with hidden files).
---->ls -lt
---->man ls -lr
+---->cd -(it will show the present and previous directorys).
+---->ctrl+c is used to kill the process.
+---->ls -lR(to see files in a directories). 
+---->ls -lr -->IT WILL DISPLAY THE LONG LIST OF FILRS AND DIRECTORIES IN REVERSE ORDER OR DESCENDING ORDER.
+---->ls -ld
+---->ls --lr|more(page wise)
+---->ls --lR|more(page wise)
+=====================================================================================
+MANUAL PAGE RELATED COMMANDS:-
+=================================
+---->USING this man related commands we can get more information about that commands.
+---->man ls(to get manual pages)
+---->man cat.
+---->ls -la(to see long listing files with hidden files).
+---->ls -lt
+---->man ls -lr
 ---->man ls -lR.
---->man ls  -la.
---->man ls -ld 
---->man ls -lt.
-===========================================================================================================================================================================
-**best commands to hack windows(pc)**
-====================================
-Accessibility Options: access.cpl
-Add Hardware: hdwwiz.cpl
-Add / Remove Programs: appwiz.cpl
-Administrative Tools: control admintools
-Automatic Updates: wuaucpl.cpl
-Wizard file transfer Bluetooth: fsquirt
-Calculator: calc
-Certificate Manager: certmgr.msc
-Character: charmap
-Checking disk: chkdsk
-Manager of the album (clipboard): clipbrd
-Command Prompt: cmd
-Service components (DCOM): dcomcnfg
-Computer Management: compmgmt.msc
-DDE active sharing: ddeshare
-Device Manager: devmgmt.msc
-Watson: drwtsn32
-Free Cell: freecell
-=========================================
--->linux is a case sensitive 
+---->man ls  -la.
+----->man ls -ld 
+---->man ls -lt.
 -->shutdown (it will poweroff entire centos)
 -->mkdir aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
 -->cd aec and then type ls -l-->then you will see the cse directory.
@@ -251,25 +186,26 @@ Free Cell: freecell
 -->(.)->represents existing directory
 -->cp -r ~/directory1/directory2 .
 -->touch filenames -->this command is used to create many files at a time.
-============================================================================
+============================================================================================================================
 LINKS:-(to create multiple links)
-========================
--->hard link --->it cannot create for directorys ,it is only for files ->limitation
-->formats create a file system.
+===================================
+-->There are two types of Links they are soft link and hard link.
+-->These links only applicable for files.
 ===================================
 -->command to create hard disk:-
 =================================
- -->create a file1.
- -->create a directory.
+-->create a file1.
+-->create a directory.
 -->execute the command now-->(ln filename1  ~/directory name).
 --->to see the inode value of the file ,exectue` the command -->(ls -li filename).
-========================================
+===================================================================================
 -->command to create soft link:-
 ==================================
 --->first create a file.
 --->create a directory
 --->exectur the command ->>(ln -s file1 ~/directory name).
-==================================================================
+-->soft links are also called as symbolic Links.
+================================================================================================================================================================
 EDITORS:-
 ==================
 -->there three types in linux
