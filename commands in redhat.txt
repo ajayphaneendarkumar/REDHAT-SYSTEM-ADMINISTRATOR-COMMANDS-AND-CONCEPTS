@@ -615,7 +615,9 @@ CONTROL BOOT PROCESS:-
   -->"semanage port -l"
   -->"semanage port -l|grep service name(eg:-ftp)"
   -->"semanage port -l - C"
-  --------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================================================
+REDHAT CERTIFICATION EXAM ANSWERS:-
+=====================================
   -->vi /etc/yum.repos.d/local.repo -->this is used to create repositories
        -->name=""
        -->baseurl="url"
@@ -716,51 +718,5 @@ CONTROL BOOT PROCESS:-
 -->tuned-adm profile virtual-guest
 -->tuned-adm active
 -->systemctl restart tuned
-=======================================
-containers:-
-===============
--->lab start conatiners-services
--->ssh student@servera
--->ssh root@serverb
--->subscription-manager register 
-   username:ajaypunati73
-   passsword:9963841248Srinu
--->subscription-manager auto-attach
--->yum module install -y containers-tools
--->yum install podman-docker -y
--------------------------------------------------------------
-in student@servera:
-------------------------
--->wget url https://raw.githubusercontent.com/Prithivrajgankai/Ascii2pdf-Containerfile/main/Containerfile
--->ls
--->podman login registry.lab.example.com
-   username:admin
-   password:redhat321
--->podman bulid -t monitor .
--->podman images
-----------------------------------------------------------------------------
-in root@serverb:-
-=======================
--->mkdir /opt/files /opt/processed
--->chmod 777 /opt/files/ /opt/processed
--->chown stduent:student /opt/files/ /opt/processed/
---------------------------------------------------------------------------
-in student@servera:-
-==========================
--->podman rum -d --name ascii2pdf -v /opt/files:/opt/incoming:Z -v /opt/processed:/opt/outcoming:Z localhost/monitor:latest
--->podman ps
--->mkdir -p ~/.config/systemd/user
--->cd ~/.config/systemd/user
--->podman generate systemd --name ascii2pdf --files --new
--->podman stop ascii2pdf
--->podman rm ascii2pdf
--->systemctl --user daemon-reload
--->systemctl --user start container-ascii2pdf.service
--->systemctl --user enable container-ascii2pdf.service
--->podman ps
-=======================================================================
-in root@servera:-
-========================
--->loginctl enable-linger student
--->loginctl show-user student
-============================================================================================================================
+==================================================================================================================================================================
+
