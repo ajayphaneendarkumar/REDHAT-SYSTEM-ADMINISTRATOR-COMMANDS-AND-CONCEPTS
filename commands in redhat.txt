@@ -10,7 +10,7 @@ INTRODUCTION:-
 -->linux  is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing in the year 1994.
 -->redhat linux is completely open source network.
 -->open source in the sense we can modify the kernel and all other applications , more over it is a free of cost and anyone can use it anywhere in the world.
--->Redhat linux is a open source operating system and moreover  it is a company , typical technology to learn and it provides subscriptions. 
+-->Redhat linux is a open source linux operating system and moreover  it is a company , typical technology to learn and it provides subscriptions. 
 -->Also It provides applications to the software development tools.
 --->"4" years back redhat is adopted by "IBM" Company.
 -->unix and windows is completely closed source network ->developed by open network group.
@@ -179,20 +179,20 @@ MANUAL PAGE RELATED COMMANDS:-
 ---->man ls  -la.
 ----->man ls -ld 
 ---->man ls -lt.
--->shutdown (it will poweroff entire centos)
--->mkdir aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
--->cd aec and then type ls -l-->then you will see the cse directory.
--->rm -rf directoryname or rmdir directory name(to delete the directory without any conformation)
--->(.)->represents existing directory
--->cp -r ~/directory1/directory2 .
--->touch filenames -->this command is used to create many files at a time.
+---->shutdown (it will poweroff entire centos)
+---->mkdir aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
+---->cd aec and then type ls -l-->then you will see the cse directory.
+---->rm -rf directoryname or rmdir directory name(to delete the directory without any conformation)
+---->(.)->represents existing directory
+---->cp -r ~/directory1/directory2 .
+---->touch filenames -->this command is used to create many files at a time.
 ============================================================================================================================
 LINKS:-(to create multiple links)
 ===================================
 -->There are two types of Links they are soft link and hard link.
 -->These links only applicable for files.
 ===================================
--->command to create hard disk:-
+-->command to create hard Link:-
 =================================
 -->create a file1.
 -->create a directory.
@@ -208,49 +208,42 @@ LINKS:-(to create multiple links)
 ================================================================================================================================================================
 EDITORS:-
 ==================
--->there three types in linux
+-->There are  three types of Editors in  linux, the are:
  1.vi
  2.vim
  3. nano editor
 ===============
--->vim edito:
-=================
--->vim filename
--->press "i" -->insert mode
--->press "escape" to exit from insert mode also called as command mode.
--->press "shift+: " and press wq to write and quit.
---> if you dont want to save the file then press ":q!".
-we can repeat the same process many times.
--->to view the content press "v" after exit from insert mode.
--->vimtutor-->to know entire descrption .
--->:set nu -->this command assign numbers to the content lines in the file.
--->gcc filename.c -->to compile the code
--->./a.out -->to run the code.
+VIM EDITOR:-
+===============================================================
+---->vim filename -->TO CREATE A FILE IN VIM EDITOR.
+---->press "i" -->insert mode
+---->press "escape" to exit from insert mode also called as command mode.
+---->press "shift+: " and press wq to write and quit.
+----> if you dont want to save the file then press ":q!".
+---->we can repeat the same process many times.
+---->to view the content press "v" after exit from insert mode.
+---->vimtutor-->to know entire descrption .
+---->:set nu -->this command assign numbers to the content lines in the file.
+---->gcc filename.c -->to compile the code
+---->./a.out -->to run the code.
 =========================================================================
-nano editor:-
+NANO EDITOR:-
 =================
 -->nano filename 
--->there is no insert mode in nan0.
-=================
--->there are two types of users 1.standard user($) 2.root user(#)
-=================================
+-->there is no insert mode in nano.
+==================================================================================================================================================================
 processes related commands:
 =================================
---> ps command to see the no.of currently running process or process status.
+--->ps command to see the no.of currently running process or process status.
 --->ps -a  	
--->ps -au
--->ps -u
---->id (always uid ,gid for root is zero).
-(uid and gid for standard user is start with 1000).
---->in password there are 7 partsthey are:-
-1.username 2. password 3.uid 4.gid 5.groupname 6.home directory 7.login info like bash shell etc..
-============================================================================== 
--->cat /etc/passwd
--->cat /etc/shadow
--->cat /bin/bash
---to switch one user to other just excute the command 
-su username in another user home directory.
-======================================================
+--->ps -au
+--->ps -u
+==================================================================================================================================================================
+--->cat /etc/passwd
+--->cat /etc/shadow
+--->cat /bin/bash
+--->To switch from one user to other just excute the command "su username"
+=================================================================================
 -->system users 1-999(ids)
 -->standard users (from 1000 onwards ids will be start..)
 -->interactive login(/bin/bash) (root,standard users)
