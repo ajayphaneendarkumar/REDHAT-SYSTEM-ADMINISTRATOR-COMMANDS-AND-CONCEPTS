@@ -5,28 +5,28 @@ SYSTEM ADMINISTRATOR:-
 =================================================================================================================================
 INTRODUCTION:-
 ====================
--->linux is a case sensitive .
--->Linux actually means the kernel of the system, which is the sole controller of whatever happens on the computer system.
--->linux  is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing in the year 1994.
--->redhat linux is completely open source network.
--->open source in the sense we can modify the kernel and all other applications , more over it is a free of cost and anyone can use it anywhere in the world.
--->Redhat linux is a open source linux operating system and moreover  it is a company , typical technology to learn and it provides subscriptions. 
--->Also It provides applications to the software development tools.
+--->linux is a case sensitive .
+--->Linux actually means the kernel of the system, which is the sole controller of whatever happens on the computer system.
+--->linux  is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing in the year 1994.
+--->redhat linux is completely open source network.
+--->open source in the sense we can modify the kernel and all other applications , more over it is a free of cost and anyone can use it anywhere in the world.
+--->Redhat linux is a open source linux operating system and moreover  it is a company , typical technology to learn and it provides subscriptions. 
+--->Also It provides applications to the software development tools.
 --->"4" years back redhat is adopted by "IBM" Company.
--->unix and windows is completely closed source network ->developed by open network group.
+--->unix and windows is completely closed source network ->developed by open network group.
 ==============================================================================================================================================
 OPERATING SYSTEM:-
 ===============================================================
--->It act as interface between user and a computer hardware.
--->READHAT is also a one type of operating system.
--->Os is also called as system software.
--->MAC os is compliant os of unix.
+--->It act as interface between user and a computer hardware.
+--->READHAT is also a one type of operating system.
+--->Os is also called as system software.
+--->MAC os is compliant os of unix.
 ================================================================
 VERSIONS OF REDHAT LINUX:-
 ==============================
--->Redhat Fedora- desktop version
--->RHEL(redHat enterprise Linux) - server version
--->centos- CD version -continuous delivery version but currently redhat ban the services of centos
+--->Redhat Fedora- desktop version
+--->RHEL(redHat enterprise Linux) - server version
+--->centos- CD version -continuous delivery version but currently redhat ban the services of centos
 ==================================================================================================
 VERSIONS OF WINDOWS:-
 ========================
