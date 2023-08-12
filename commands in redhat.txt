@@ -180,7 +180,7 @@ MANUAL PAGE RELATED COMMANDS:-
 ----->man ls -ld 
 ---->man ls -lt.
 ---->shutdown (it will poweroff entire centos)
----->mkdir aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
+---->mkdir -p aec/cse(first we have to create the aec directory and then create cse directory) or mkdri -p /directory1/directory2. -->to create sub driectories
 ---->cd aec and then type ls -l-->then you will see the cse directory.
 ---->rm -rf directoryname or rmdir directory name(to delete the directory without any conformation)
 ---->(.)->represents existing directory
