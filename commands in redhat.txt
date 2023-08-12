@@ -7,6 +7,7 @@ INTRODUCTION:-
 ====================
 --->linux is a case sensitive .
 --->Linux actually means the kernel of the system, which is the sole controller of whatever happens on the computer system.
+--->The kernel enables multiple applications to share hardware resources by providing access to CPU, memory, disk I/O, and networking.
 --->linux  is developed by linus torvalds in the year 1991 and redhat is invented by marc ewing in the year 1994.
 --->redhat linux is completely open source network.
 --->open source in the sense we can modify the kernel and all other applications , more over it is a free of cost and anyone can use it anywhere in the world.
