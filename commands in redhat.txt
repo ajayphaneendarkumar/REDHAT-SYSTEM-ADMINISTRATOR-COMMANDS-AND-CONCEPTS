@@ -250,36 +250,35 @@ processes related commands:
 -->system users (/bin,/sbin/no login)
 -->standard users = system users
 =======================================================================
-USER AND GROUP MANAGEMENTS COMMANDS:-
+USER AND GROUP MANAGEMENT CONCEPT:-
 ===========================================================
---> to see the id of a user we use the command (id username).
--->to give description or canonical name for a user in passwd
-    usermod -c "desc" username
--->ex:
-
-usermod -c "hello redhat training " cse1
-in passwd it changes the description of the particular user(which we have mentioned)
--->groupadd <gropu name>.//to add the group
--->groupdel <groupname>.// to delete the group.
--->groupdel -f <groupname> // to delete the group frocely.
---> syntax to add user to the primary group is -->first creat the group by using groupadd <group name>,-->usermod  -g  <groupname> <username>.
--->syntax to add user to the secondary group is-->usermod -aG <groupname> <username>.
--->usermod -L username //this is to lock the user.
--->usermod  -U username //this is to unlock the user.
--->cd /etc/sudoers.d
-(now create one file with same name as the group and give the permissions  %cse	ALL=(ALL)	ALL)
+---->"useradd "username" . //To add the user.
+---->"userdel "username" .//To delete the user.
+----> To see the id of a user we use the command (id username).
+---->To give description or canonical name for a user in passwd
+        usermod -c "desc" username
+---->ex:usermod -c "hello redhat training " cse1
+---->In passwd it changes the description of the particular user(which we have mentioned)
+--->groupadd <gropu name>.//To add the group
+---->groupdel <groupname>.// To delete the group.
+---->groupdel -f <groupname> // To delete the group frocely.
+---->syntax to add user to the primary group is -->"usermod  -g  <groupname> <username>."
+---->syntax to add user to the secondary group is-->"usermod -aG <groupname> <username>."
+---->usermod -L username //This is to lock the user.
+---->usermod -U username //This is to unlock the user.
+---->cd /etc/sudoers.d
+/*(now create one file with same name as the group and give the permissions  %cse	ALL=(ALL)	ALL)
 (now switch to any one of the user that we added to the the group (su - username))
-(now try to create the new user by using (sudo useradd useraname))permissions are granted.
--->to change or modify the userid foloow the syntax --->usermod -u newid username,-->id username
--->to change or modify the group id follow the syntax -->groupmod -g newid groupname,-->id username.
---> to change group name follow the syntax-->groupmod -n "new name for existing group name" actual-group-name.
--->(su - username)-->directly it will show the home directory.
--->we will  use "usermod" for modification of data and "userdd" is to add users and their data like ids -->for example:- useradd -u "id" username.
--->passwd --stdin username -->to set password for the users.
-=================================================================================================================================================
+(now try to create the new user by using (sudo useradd useraname))permissions are granted.*/
+---->To change or modify the userid foloow the syntax --->"usermod -u newid username"-->id username
+---->To change or modify the group id follow the syntax -->"groupmod -g newid groupname"-->id username.
+---->To change group name follow the syntax-->groupmod -n "new name for existing group name" actual-group-name.
+---->(su - username)-->directly it will show the home directory.
+---->passwd --stdin username -->to set password for the users.
+==================================================================================================================================================================
 TIME ZONES:-
-=================================================================================================================================================
--->timrdatectl-->it will show day ,time ,date.
+================================================================================================================================================================
+-->timedatectl-->it will show day ,time ,date.
 -->timedatectl list-timezones-->multiple timezones.
 -->timedatectl list-timezones|more -->to see timezones pages wise.
 -->timedatectl list-timezones|grep Asia.
@@ -287,7 +286,6 @@ TIME ZONES:-
 -->timedatectl set-time HH:MM::SS.
 -->date --set HH:MM:SS
 -->date --set yyyy-mm-dd
--->date --set yyyy-mm-dd HH:MM:SS
 ===================================================================================================================================================
 ENCRYPTED PASSWORD OR DETAILED INFO OF A USER:-
 ====================================================================================================================================================
@@ -302,7 +300,7 @@ ENCRYPTED PASSWORD OR DETAILED INFO OF A USER:-
 -->chage -m 0 -M 30 -W 7 -I 7(m->minimum age,M->maximum age,W->warning after how many days password expires,I->no.of inactive days).
 ====================================================================================================================================================
 FILE/DIRECTORY PERMISSIONS:-
-===============================
+===============================================================================================================
 -->User permissions override the group permissons and group permisssions override the other permissions.
 -->r->read
 -->w->write
