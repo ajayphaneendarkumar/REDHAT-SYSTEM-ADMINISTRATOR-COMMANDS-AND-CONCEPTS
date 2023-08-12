@@ -15,6 +15,24 @@ INTRODUCTION:-
 --->"4" years back redhat is adopted by "IBM" Company.
 --->unix and windows is completely closed source network ->developed by open network group.
 ==============================================================================================================================================
+-->what is redhat
+-->what is linux.
+-->what is windows
+-->what is the difference b/w linux and windows
+-->what are the advantages of redaht linux
+-->what are the applications and services provided by redhat
+----------------------------------------------------------------------------------------
+-->LINUX:-linux is unix-like open soruce operating system.linux is packaged as the linux distribution which contains supporting libraries and  KERNEL ETC..,around 600+ flavours are in linux. 
+-->REDHAT:- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
+-->WINDOWS:- it is an user friendly operating system which acts as interface between computer hardware and user. also  it is a graphical operating system developed by microsoft.
+-->difference b/w linux and windows :- 
+    linux                                        windows
+   ------------                                -------------
+  ->open soruce                             -->closed soruce
+  ->free of cost                            -->not for free of cost
+  ->secure                                  -->insecure
+  ->low hardware cost                       -->high harwdare cost
+==================================================================================================================================================================
 OPERATING SYSTEM:-
 ===============================================================
 --->It act as interface between user and a computer hardware.
@@ -301,22 +319,22 @@ ENCRYPTED PASSWORD OR DETAILED INFO OF A USER:-
 ====================================================================================================================================================
 FILE/DIRECTORY PERMISSIONS:-
 ===============================================================================================================
--->User permissions override the group permissons and group permisssions override the other permissions.
--->r->read
--->w->write
--->x->execute
--->d->type
--->r-x-->read and execute permission
--->rw -->read write permission
--->"chmod" command is used to give the permissions and this command applys on files and directorys.
--->"chown" command is used to give the ownership or to change the owner ship .
--->syntax:-
+---->User permissions override the group permissons and group permisssions override the other permissions.
+---->r->read permission
+---->w->write permission
+---->x->execute permission
+---->d-> directory
+---->r-x-> Having read and execute permission.
+---->rw --> Having read write permission
+---->"chmod" command is used to give the permissions and this command applys on files and directorys.
+---->"chown" command is used to give the ownership or to change the owner ship .
+---->syntax:-
    1.chown :groupname /home/directoryname(eg:-sensors)-->we execute this command in "cd /home" directory.
    2.chown :gropuanme /home/directoryname/filename.
    3.chmod g(group)+w(write) /home/sensors-->this is for directory.
    4.chmod (g+w or o+w or u+w) /home/sensors/filename -->>this is for files.
    5.chgrp groupname path-->chgrp admin /common/admin
--->in place of giving permissions like g+w,u+w,o+w we can directly follow the below syntax
+---->in place of giving permissions like g+w,u+w,o+w we can directly follow the below syntax
    r=4
    w=2
    x=1
@@ -327,20 +345,20 @@ eg:-
  ---> "umask" default value is 0022.
  ---> to change the umask value type: umask "number".
  -->chmod -1777 /home/directory/filename or /home/directory name. -->it will delete all the permissions that a file or directorty having.
-=======================================================================================================================================
--->process management:-
+==================================================================================================================================================================
+PROCESS MANAGEMENT:-
 ======================================
--->applications/user
--->system services/system files
--->os->system software
--->resources--memory,cpu,storage
+--->applications/user
+--->system services/system files
+--->os->system software
+--->resources--memory,cpu,storage
 ==================================
--->mutli-processing:-
+--->mutli-processing:-
 ======================
--->four processes we can run in active state at a time.
+--->Four processes we can run in active state at a time.
 ==========================
--->multi tasking:-
-================
+MULTI TASKING:-
+===================
 -->how many activities or processes we are running without minimizing is nothing but mutli tasking.
 ========================================================================================================
 -->multi threading:-
@@ -348,157 +366,102 @@ eg:-
 -->thread is a child process under one parent process.
 -->commands realted to process management:-
 ====================================================
-  --> ps
-  --> ps aux
-  -->ps lax
-  --> top-->we can get all the getails realted to process ,so it is very good command.
-  --> w-->it will show no of users logedin.
-  -->lscpu
-  -->pgrep -l -u username
-  -->pkill -SIGKILL -u <user> -->it will logout the user forcely fully by sending killsignal.
-===============================================================================================
+  ---> ps
+  ---> ps aux
+  --->ps lax
+  --->top-->we can get all the Details realted to process ,so it is very good command.
+  ---> w-->it will show no of users logedin.
+  --->lscpu
+  --->pgrep -l -u username
+  --->pkill -SIGKILL -u <user> -->it will logout the user forcely fully by sending killsignal.
+==================================================================================================================================================================
   -->SSH-secured shell
   -->folowing are the protocols for remote connections.
        ->ssh-linux,unix ->fully encrypted
        ->telnet
         ->rlogin
         ->rdp
-==========================================================
+==================================================================================================================================================================
  -->IP(INTERNET PROTOCOL) AND PORT NUMBER:-
 =========================================
- ->ipsocket -->ipaddress + portnumber
- ->over the world there are 65536 port numbers are in use.
- ->ssh-->22 port number
- ->telent-->23 port number-->telent is something where communication happens in a plain text->it doesn't have encrypted fromat..
- ->rdp->remote desktop protocol ->secured connection for windows desktop ->3368.
- ->80 port number is unsecur and 443 is secure.
- ->to see ip address in windows got cmd and type ipconfig->but it is not used in linux.
- -->to see ip address in linux got to whatever the linux you have and type "ifconfig".
- -->to ping one ip address to other just type "ping ip address ". 
---->ping is to check connectivity
- -->"yum update"->this is used to install the updates.
- -->"dnf update"-->this is also same as yum update.
-======================================================================================
+ --->ipsocket -->ipaddress + portnumber
+ --->over the world there are 65536 port numbers are in use.
+ --->ssh-->22 port number
+ --->telent-->23 port number-->telent is something where communication happens in a plain text->it doesn't have encrypted fromat..
+ --->rdp->remote desktop protocol ->secured connection for windows desktop ->3368.
+ --->80 port number is unsecur and 443 is secure.
+ --->To see ip address in windows got cmd and type ipconfig->but it is not used in linux.
+ --->To see ip address in linux got to whatever the linux you have and type "ifconfig".
+ --->to ping one ip address to other just type "ping ip address ". 
+ --->ping is the command to check connectivity
+ --->"yum update"->This is used to install the updates.
+ --->"dnf update"-->This is also same as yum update.
+==================================================================================================================================================================
 SYSTEM SERVICES AND SOFTWARE UPDATES(CONTROL SERVICES AND DEAMONS):-
 =======================================================================================
--->"systemctl" ->this command deals with the system services.
---> "systemctl status ssh" or "systemctl status sshd" -->checks whether system installaed ssh or not.
--->if ssh is not installed in system then excute the coomand -->"dnf or yum install openssh".
--->to stop the sshd service -->"systemctl stop sshd".
--->again to start the sshd service-->"systemctl start sshd".
--->"systemctl enable sshd".
--->"systemctl disable sshd".
--->"systemctl restart sshd".
--->"systemctl reload sshd".
--->"systemctl" -->shows number of services.
--->"systemctl is ".
--->"systemctl is-active sshd" -->tells whether the service is active or not
--->"systemctl is-inactive sshd" -->tells whether the service is inactive or not
--->"systemctl is-failed sshd"
--->"systemctl restart NetworkingManager".
--->d-->refers to deamon.
--->"dnf install package name".
--->dnf install httpd"-->httpd is a web service.
--->the original name daemons is berkley named daemon.
--->ssh-keygen-->it will generate the keys.
--->cd .ssh--> ls -l -->ls -la -->vmware-hgfsclinet -->cd /mnt -->ls -->cd hgfs -->ls
--->cp ~/.ssh/id_rsa.pub to ssh keys folder.
-
-===============================================================================
-MINI PROJECT :-
-=====================================
-TOOLS TO INSTALL:-
------------------
-->sudo apt-get install apache2
-->sudo apt-get install php
-->sudo apt-get insatall nmap
-----------------------------------
-NOW GIVE THE PERMISSIONS AND OWNERSHIP TO HTLM FILE WHICH IS IN "/VAR/WWW/HTML"
---------------------------------------------------------------------------------
-->sudo chown ubuntu /var/www/html
-->sudo chmod 777 /var/www/htmlcd 
----------------------------------------------------------------------------------
-CRON JOB CONFIGURATION:-
-========================
-->sudo crontab -e(this is one of the editor in ubuntu)
-*/10 * * * *nmap 192.168.1.0/24 -oN /var/www/html/nmap.html
-===================================================================================
-NETWORK.PHP:
+---->"systemctl" ->This command deals with the system services.
+---->"systemctl status ssh" or "systemctl status sshd" -->checks whether system installaed ssh or not.
+---->If ssh is not installed in system then excute the coomand -->"dnf or yum install openssh".
+---->To stop the sshd service -->"systemctl stop sshd".
+---->Again to start the sshd service-->"systemctl start sshd".
+---->"systemctl enable sshd".
+---->"systemctl disable sshd".
+---->"systemctl restart sshd".
+---->"systemctl reload sshd".
+---->"systemctl" -->shows number of services.
+---->"systemctl is ".
+---->"systemctl is-active sshd" -->tells whether the service is active or not
+---->"systemctl is-inactive sshd" -->tells whether the service is inactive or not
+---->"systemctl is-failed sshd"
+---->"systemctl restart NetworkingManager".
+---->d-->refers to deamon.
+---->"dnf install package name".
+---->dnf install httpd"-->httpd is a web service.
+---->the original name daemons is berkley named daemon.
+==================================================================================================================================================================
+ANALYZE AND STORE LOGS:-
 ==============================
-<?php
-
-echo "Server Timestamp: ";
-echo date("h:i:sa");
-
-echo "<pre>";
-include("nmap.html");
-echo "</pre>";
-
-?>
-==========================================================================================
--->what is redhat
--->what is linux.
--->what is windows
--->what is the difference b/w linux and windows
--->what are the advantages of redaht linux
--->what are the applications and services provided by redhat
-----------------------------------------------------------------------------------------
--->linux:-linux is unix-like open soruce operating system.linux is packaged as the linux distribution which contains supporting libraries and  KERNEL ETC..,around 600+ flavours are in linux. 
--->RedHat :- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
--->windows :- it is an user friendly operating system which acts as interface between computer hardware and user. also  it is a graphical operating system developed by microsoft.
--->difference b/w linux and windows :- 
-    linux                                        windows
-   ------------                                -------------
-  ->open soruce                             -->closed soruce
-  ->free of cost                            -->not for free of cost
-  ->secure                                  -->insecure
-  ->low hardware cost                       -->high harwdare cost
-
--->applications or services of redhat:-
-          -->
-=======================================================================================================================================================================
-analyze and store logs:-
-==============================
--->GO TO THE PATH -->cd /var/log/filenames 
--->/var/log/meassages
--->/var/log/boot.log
--->/var/log/secure
---> /var/log/maillog
-================================================
+---->GO TO THE PATH -->cd /var/log/filenames 
+---->/var/log/meassages
+---->/var/log/boot.log
+---->/var/log/secure
+----> /var/log/maillog
+==================================================================================================================================================================
 MANAGE NETWORKING IN LINUX:-
 =============================================
--->lan card ---- eth(ethernet)
--->command : hostname
--->two ways of assigning hostname:
+---->lan card ---- eth(ethernet)
+---->command : hostname
+---->Two ways of assigning hostname:
       ->temporary and permanent
--->temporary:-
+---->Temporary way:-
        command:hostname "ajay.technical.io"
--->after restarting names will be disappear.
--->permanent:-
+---->After restarting names will be disappear.
+---->permanent way:-
         hostnamectl
         command : hostnamectl set-hostname "ajay.technicalhub.io"
--->"uname " -->tells what is our operating system. eg:linux.
--->"uname -a" --->deatiled information.
--->"uname -r" -->shows kernal version
--->"ip a " or  "ip address" or "ifconfig(interface configuration" -->shows ip address
--->"ens160-->ethernet socket 160", "eno->ethernet on board","lo-->loop back address starts from 127.0.0.1" -->these are two interfaces.
--->command:tracert "website(www.aec.edu.in)"  -->in command prompt
--->command:tracepath "website(www.technicalhub.com)" -->in linux 
--->configure networking from command line:-
-  =================================================
-    -->command:"nmcli" (network managing through command line).
-    -->"nmcli dev status"-->physical one
-    -->"nmcli connection or con  show"  --->shows how many con are there.
-    -->"nmcli connection or con delete con-name"  -->shows connection status up/down.
-    -->"nmcli con up connection-name".   --->turn connection to up/active.
-    -->"nmcli con add con-name "name" type ethernet ifname "ens160". --->//to add a connection.
-    -->"nmcli connection or con add con-name "name(static)" type ethernet ifname ens160 ipv4.addresses "give oneip" ipv4.gateway "give the gateway" autoconnect no.         -->to add connection and give ip manually.
-    -->nmcli con down con-name
-    -->nmcli con show --active
-    -->nmcli con mod ipv4 192.168.10.1/24
-    -->nmli con reload con-name.
-    -->nmli con load con-name.
-=====================================================================================================
+---->"uname " -->tells what is our operating system. eg:linux.
+---->"uname -a" --->deatiled information.
+---->"uname -r" -->shows kernal version
+---->"ip a " or  "ip address" or "ifconfig(interface configuration" -->shows ip address
+---->"ens160-->ethernet socket 160", "eno->ethernet on board","lo-->loop back address starts from 127.0.0.1" -->these are two interfaces.
+---->command:tracert "website(www.aec.edu.in)"  -->in command prompt
+---->command:tracepath "website(www.technicalhub.com)" -->in linux 
+==================================================================================================================================================================
+CONFIGURE NETWORKING FROM COMMAND LINE:-
+=================================================
+---->command:"nmcli" (network managing through command line).
+---->"nmcli dev status"-->physical one
+---->"nmcli connection or con  show"  --->shows how many con are there.
+---->"nmcli connection or con delete con-name"  -->shows connection status up/down.
+---->"nmcli con up connection-name".   --->turn connection to up/active.
+---->"nmcli con add con-name "name" type ethernet ifname "ens160". --->//to add a connection.
+---->"nmcli connection or con add con-name "name(static)" type ethernet ifname ens160 ipv4.addresses "give oneip" ipv4.gateway "give the gateway" autoconnect no.         -->to add connection and give ip manually.
+---->nmcli con down con-name
+---->nmcli con show --active
+---->nmcli con mod ipv4 192.168.10.1/24
+---->nmli con reload con-name.
+---->nmli con load con-name.
+==================================================================================================================================================================
 MODULE-2:-
 ======================================================================================================
    PARTITIONING:-
