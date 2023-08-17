@@ -15,6 +15,7 @@ INTRODUCTION:-
 --->Also It provides applications to the software development tools.
 --->"4" years back redhat is adopted by "IBM" Company.
 --->unix and windows is completely closed source network ->developed by open network group.
+-->Pupet server:-puppet server is a ruby and clojure application runs on java virtual machine.
 ==============================================================================================================================================
 -->what is redhat
 -->what is linux.
@@ -22,11 +23,11 @@ INTRODUCTION:-
 -->what is the difference b/w linux and windows
 -->what are the advantages of redaht linux
 -->what are the applications and services provided by redhat
-----------------------------------------------------------------------------------------
--->LINUX:-linux is unix-like open soruce operating system.linux is packaged as the linux distribution which contains supporting libraries and  KERNEL ETC..,around 600+ flavours are in linux. 
--->REDHAT:- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
--->WINDOWS:- it is an user friendly operating system which acts as interface between computer hardware and user. also  it is a graphical operating system developed by microsoft.
--->difference b/w linux and windows :- 
+==========================================================================
+--->LINUX:-linux is unix-like open soruce operating system.linux is packaged as the linux distribution which contains supporting libraries and  KERNEL ETC..,around 600+ flavours are in linux. 
+--->REDHAT:- it is an open source linux operating system ,which provides applications to develop software tools and also provides many services and it is typical techology to learn.it is a company.
+--->WINDOWS:- it is an user friendly operating system which acts as interface between computer hardware and user, also  it is a graphical operating system developed by microsoft.
+--->difference b/w linux and windows :- 
     linux                                        windows
    ------------                                -------------
   ->open soruce                             -->closed soruce
