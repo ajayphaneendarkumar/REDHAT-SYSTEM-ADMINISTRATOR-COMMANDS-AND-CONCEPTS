@@ -2,7 +2,8 @@ SYSTEM ADMINISTRATOR:-
 ==================================
 -->The main Aim of system administrator  is to create server , manage server and configure the server.
 -->In this RHCSA(Redhat certified system administration) , they develop the trouble shooting skills for a system administrator.
-=================================================================================================================================
+-->Server is a software system that provides various services,data and resources to other computers known as clients via internet.
+==============================================================================================================================================================
 INTRODUCTION:-
 ====================
 --->linux is a case sensitive .
