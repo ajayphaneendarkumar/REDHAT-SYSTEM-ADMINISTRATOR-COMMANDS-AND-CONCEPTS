@@ -217,6 +217,7 @@ LINKS:-(to create multiple links)
 =================================
 -->create a file1.
 -->create a directory.
+-->The hard link is nothing but it will link already existing file data to the new file without any changes.
 -->execute the command now-->(ln filename1  ~/directory name).
 --->to see the inode value of the file ,exectue` the command -->(ls -li filename).
 -->Inode values means each file or directory having unique id number.
