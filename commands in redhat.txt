@@ -74,6 +74,7 @@ BASIC COMMANDS OF LINUX:-
    ---> cp filename filename1
 -->TO move one file to another or for hiding the file.
     --->mv filename1 filename2
+-->find filename -->it is used to find a file who path is not known or defined.
 -->Disadavantages of move command:-
   =================================
      -->There will be "NO UNDO" feature to the mv command.
